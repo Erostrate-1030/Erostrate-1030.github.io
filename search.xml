@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>那個下午我在舊居燒信</title>
+    <url>/posts/burning_letters.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0PYOuxa9oUTm8LlkagkxYE?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+<blockquote>
+<p>茫茫如水一般日子淌過<br>如風的呼吸記憶於我</p>
+</blockquote>
+<span id="more"></span>
+
+<p>那个下午我在旧居烧信，细数着自己十九岁之后的四年人生。我常常在想，在这段时间里，我是否有鲜活、自由地活过。</p>
+<p>在20年之前，也就是疫情前时代，我享受过半年无忧无虑的大学生活。那段安逸的时光里，我除了上课什么都不用想。在此之后，我的生命飞速地在居家、内卷、封校等枯燥乏味的事情中度过。</p>
+<p>转眼间，我快要毕业了。我如愿以偿地被理想的学校录取，可是我发现我的四年实在无聊。</p>
+<p>我不能说在这四年里，我没有好好地享受过。我只觉得，自己一直像一只来到陌生环境中受惊吓的动物，我的应激体现在我沉迷于图书馆-饭堂-宿舍的三点一线之中，除此之外，我独来独往，也鲜少将时间大量地花费在学习（无论是专业学习还是自己在此之外的学习）上。我放弃了自己大多数的兴趣。</p>
+<p>于是，我虽然在无意义的竞争中倔强地保持了自己的本性，但是我某种程度上成为了一个无个性无兴趣的人。我喜欢画画，但是自大学之后，我鲜少提起画笔；我喜欢看小说，但是似乎大二以来，我也没看多少。</p>
+<p>我生命的火焰本应在此时熊熊燃烧，然而，我并不觉得自己是个非常有生命力的人，也不觉得自己此时此刻是一个被理想驱动的人。我不断逃避，但是鲜少奔赴，仿佛我的前方已经失去可以为之奔赴的目标。我羡慕着朋友自由生长的模样，而我的生长并不自由，它不过是时间流逝的必然结果。</p>
+<p>不去逃避，去面对，去经历。这便是接下来我能做的事情。</p>
+]]></content>
+      <categories>
+        <category>🍵 AboutMe | 生活碎片</category>
+      </categories>
+      <tags>
+        <tag>達明</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>📌 今天應該很高興</title>
+    <url>/posts/today_should_be_a_happy_day.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3vfT8rhjijlnDAge02wIs4?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<p>希望大家终有一天能唱自己想唱的歌，跳自己想跳的舞。</p>
+<span id="more"></span>
+
+
+
+
+]]></content>
+      <categories>
+        <category>🍵 AboutMe | 生活碎片</category>
+      </categories>
+      <tags>
+        <tag>達明</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Genesis 创世纪</title>
+    <url>/posts/genesis.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这里是关于我搭建个人博客的故事。</p>
+<span id="more"></span>
+
+<blockquote class="blockquote-note blockquote-note__important"><div class="blockquote-note__header"><div class="blockquote-note__icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></div>写在最前面</div><div class="blockquote-note__content"><p>因为真的很想要一个个人博客(其实还没有想好发什么)，所以决定自己摸索一下从零搭建.</p>
+<p>在最开始，我选择了借助jekyll进行搭建，但是因为我太笨了，折腾了一个晚上也没有结果，于是我跟另一位有自建博客经验的朋友讨论了一下，决定自己从零搭建.在这里，我想把搭建的整个过程记录下来，作为我博客的第一篇文章.</p>
+<p>希望这篇文章可以帮到与我一样，<strong>没有任何代码基础，但是想自建博客</strong>的你.🥺 </p>
+<p>最后，感谢我的朋友🐇兔肉🐇，在这个过程中为我提供的所有支持.🥰</p>
+</div></blockquote>
+
+<hr>
+<h2 id="🤔-搭建需求"><a href="#🤔-搭建需求" class="headerlink" title="🤔 搭建需求"></a>🤔 搭建需求</h2><ul>
+<li><input checked="" disabled="" type="checkbox"> 与 Obsidian 同步更新，最好二者的文件管理框架相通(毕竟我确实没太聪明)</li>
+<li><input checked="" disabled="" type="checkbox"> 不能被任何搜索引擎搜索到，也不能被网络爬虫爬到</li>
+<li><input checked="" disabled="" type="checkbox"> 能自定义主题，可以根据我的需要改UI</li>
+<li><input checked="" disabled="" type="checkbox"> 可能可以有一个评论区(也不一定)</li>
+</ul>
+<hr>
+<h2 id="😫-具体步骤"><a href="#😫-具体步骤" class="headerlink" title="😫 具体步骤"></a>😫 具体步骤</h2><h3 id="注册GH账号与下载Git"><a href="#注册GH账号与下载Git" class="headerlink" title="注册GH账号与下载Git"></a>注册GH账号与下载Git</h3><ul>
+<li>不说了，很简单，我都能学会.</li>
+</ul>
+<hr>
+<h3 id="绑定GH并提交文件"><a href="#绑定GH并提交文件" class="headerlink" title="绑定GH并提交文件"></a>绑定GH并提交文件</h3><ul>
+<li><a href="https://zhuanlan.zhihu.com/p/102592286">主要参考来源，谢谢这位博主</a></li>
+<li>对clone到本地的仓库的相应文件右击-<code>Git Bash here</code><ul>
+<li><code>git status</code>: 查看仓库状态，显示那些文件未被提交</li>
+<li><code>git add + 文件名</code>: 添加文件到临时缓冲区</li>
+<li><code>git commit -m &quot;commit text file&quot;</code>: 提交文件到仓库<ul>
+<li>第一次提交，即本地没有git仓库的情况下，见下代码</li>
+<li>第二次提交，即本地已有git仓库的情况下，<a href="https://zhuanlan.zhihu.com/p/103391101">见此处</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ git status</span><br><span class="line"># 查看仓库状态，显示哪些文件未提交</span><br><span class="line"></span><br><span class="line">$ git add test.txt</span><br><span class="line"># 添加文件到临时缓冲区，等待提交</span><br><span class="line"></span><br><span class="line">$ git commit -m &quot;commit text file&quot;</span><br><span class="line"># 提交文件到本地仓库</span><br><span class="line"></span><br><span class="line">$ git log</span><br><span class="line"># 查看本地仓库提交记录</span><br><span class="line"></span><br><span class="line">$ git push origin main</span><br><span class="line"># 更新本地仓库到GH仓库，刷新GH仓库即可看到提交结果</span><br><span class="line"># origin: 远程主机名</span><br><span class="line"># main：仓库所属branch</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 在初次提交的状态下，会需要用户定义自己的身份</span><br><span class="line">$ git config --global user.name &quot;name&quot;</span><br><span class="line">$ git config --global user.email &quot;@.com&quot;</span><br><span class="line"></span><br><span class="line"># 然后继续上传即可</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h3><ul>
+<li><a href="https://zhuanlan.zhihu.com/p/102592286">主要参考来源，谢谢这位博主</a></li>
+<li>这步比较简单，就是找一个适合自己的域名，同时给钱.</li>
+<li>因为我比较吝啬，所以我在 <a href="https://name.com/">https://name.com</a> 上选择了 <code>.xyz</code> 这个后缀，它很便宜<ul>
+<li>令人发指的是， <code>.poor</code> 真的好贵</li>
+</ul>
+</li>
+<li>我最后选择了 <a href="https://this-lib-cannot-afford-other-names.xyz/">https://this-lib-cannot-afford-other-names.xyz</a> 作为我站域名<ul>
+<li>令人发指的是，它也挺贵的</li>
+</ul>
+</li>
+<li>然后朋友告诉我，可能可以找别人代劳，下次我一定记得 😭</li>
+</ul>
+<hr>
+<h3 id="安装-node-js-和-Hexo"><a href="#安装-node-js-和-Hexo" class="headerlink" title="安装 node.js 和 Hexo"></a>安装 node.js 和 Hexo</h3><ul>
+<li><a href="https://zhuanlan.zhihu.com/p/102592286">主要参考来源，谢谢这位博主</a></li>
+</ul>
+<h4 id="关于-node-js"><a href="#关于-node-js" class="headerlink" title="关于 node.js"></a>关于 node.js</h4><ul>
+<li><strong>设置npm在安装全局模块时的路径和环境变量</strong><ul>
+<li>安装之后，在对应文件夹新建两个文件夹 <code>node_cache</code>， <code>node_global</code></li>
+<li>打开cmd，输入<ul>
+<li><code>npm config set prefix &quot;D:\nodejs\node_global&quot;</code></li>
+<li><code>npm config set cache &quot;D:\nodejs\node_cache&quot;</code></li>
+<li>注意，两个地方都需要右键设置“属性”，将用户具有完全属性的权限</li>
+</ul>
+</li>
+<li>打开 控制面板 -&gt; 系统 -&gt;高级系统设置 -&gt; 环境变量 <ul>
+<li>-&gt; 系统变量，新建一个变量名为“NODE_PATH”，值为“D:\nodejs\node_global\node_modules”</li>
+<li>-&gt; 用户变量，编辑变量“PATH”，将相应npm的路径改为：D:\nodejs\node_global</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>测试</strong><ul>
+<li>在 cmd 命令下执行 <code>npm install webpack -g</code></li>
+<li>然后 webpack 这个模块已经在我们设置默认的文件夹中了</li>
+</ul>
+</li>
+</ul>
+<h4 id="关于-Hexo"><a href="#关于-Hexo" class="headerlink" title="关于 Hexo"></a>关于 Hexo</h4><ul>
+<li>Hexo是我们的个人博客网站的框架，在安装之前，我们要先在GitHub上创立一个仓库<ul>
+<li>这个仓库一定要是公开的</li>
+</ul>
+</li>
+<li>在D盘新建文件夹 blog ,右键 <code>Git Bash here</code><ul>
+<li><code>npm install -g hexo-cli</code> 安装 Hexo</li>
+<li><code>hexo init</code> 初始化博客<ul>
+<li>从这一步开始，需要翻墙</li>
+<li>处理 <code>Error: EPERM: operation not permitted, mkdir ‘D: </code><ul>
+<li><a href="https://www.cnblogs.com/yaohe/p/11912547.html">见此处</a></li>
+<li>大致意思：因为最初我修改路径到其他地方，因此需要把原来默认路径上的文件删掉</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>hexo g</code> 静态部署</li>
+<li><code>hexo s</code> 查看状态<ul>
+<li>成功后的样子<ul>
+<li>![[Pasted image 20220906164050.png]]</li>
+</ul>
+</li>
+<li>打开了本地运行的hexo，它开始运行了</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="将Hexo部署到GitHub"><a href="#将Hexo部署到GitHub" class="headerlink" title="将Hexo部署到GitHub"></a>将Hexo部署到GitHub</h4><ul>
+<li>返回 blog 文件夹，笔记本打开 <code>_config.yml</code> 文件</li>
+<li>文件底部填入</li>
+</ul>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">git@github.com:Erostrate-1030/Erostrate-1030.github.io.git</span></span><br><span class="line">  <span class="comment">#你的仓库地址，SSH 格式</span></span><br><span class="line">  <span class="comment">#一定要检查两个是否一样！</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>返回 blog 文件，打开 Git Bash，安装Git部署插件，输入<ul>
+<li><code>npm install hexo-deployer-git --save</code></li>
+</ul>
+</li>
+<li>再分别输入（<em><strong>这三条命令也是每次更新GH仓库要输入的命令</strong></em>）<ul>
+<li><code>hexo clean</code> 清除缓存文件 db.json 和已生成的静态文件 public</li>
+<li><code>hexo g</code> 生成网站静态文件到默认设置的 public 文件夹(hexo generate 的缩写)</li>
+<li><code>hexo d</code> 自动生成网站静态文件，并部署到设定的仓库(hexo deploy 的缩写)</li>
+</ul>
+</li>
+<li>完成之后，打开 <a href="https://erostrate-1030.github.io/">https://erostrate-1030.github.io</a> 就可以看到个人主页</li>
+</ul>
+<hr>
+<h3 id="解析域名"><a href="#解析域名" class="headerlink" title="解析域名"></a>解析域名</h3><ul>
+<li><a href="https://zhuanlan.zhihu.com/p/102592286">主要参考来源，谢谢这位博主</a></li>
+<li>打开 cmd 控制台，输入<ul>
+<li><code>ping erostrate-1030.github.io</code> 获取IPV4地址</li>
+</ul>
+</li>
+<li>打开 Blog 文件夹里的 source 文件夹，添加CNAME文件，可以先创建一个CNAME.txt文件，打开后写上你的域名，保存后记得要重命名，将.txt删除；依次输入<ul>
+<li><code>hexo clean</code></li>
+<li><code>hexo g</code></li>
+<li><code>hexo d</code></li>
+</ul>
+</li>
+<li>打开GitHub，看看CNAME文件是否已经在你的项目中</li>
+<li>解析域名，<a href="https://zhuanlan.zhihu.com/p/86961133">参照此处</a>，等几个小时刷新</li>
+</ul>
+<hr>
+<h3 id="选择主题"><a href="#选择主题" class="headerlink" title="选择主题"></a>选择主题</h3><ul>
+<li><a href="https://zhuanlan.zhihu.com/p/102592286">主要参考来源，谢谢这位博主</a></li>
+<li>选择Hexo主题和选择Jekyll主题是有区别的，挑选的时候要注意辨别！</li>
+<li>返回 blog 文件，打开 Git Bash，输入<ul>
+<li><code>git clone https://github.com/ChrAlpha/hexo-theme-cards.git themes/cards</code></li>
+<li>即 <code>git clone (URL) (相对路径)</code></li>
+</ul>
+</li>
+<li>打开根目录下的_config.yml (站点配置文件)，修改主题（<strong>注意冒号后都要有空格</strong>）</li>
+</ul>
+<blockquote class="blockquote-note blockquote-note__important"><div class="blockquote-note__header"><div class="blockquote-note__icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></div>更新的常用指令</div><div class="blockquote-note__content"><ul>
+<li><code>hexo g &amp;&amp; hexo s</code> 上传到缓冲区，在本地确认博客状态</li>
+<li><code>hexo g &amp;&amp; hexo d</code> 直接上传</li>
+</ul>
+</div></blockquote>
+
+
+<hr>
+<h2 id="🥰-优化博客"><a href="#🥰-优化博客" class="headerlink" title="🥰 优化博客"></a>🥰 优化博客</h2><ul>
+<li>大多数的问题可以<a href="https://theme-cards.ichr.me/">参考这里</a>这个页面解决。网络上搜到的很多教程都是基于next主题的，但是每个主题的操作可能非常不一样，</li>
+</ul>
+<h3 id="魔改主题"><a href="#魔改主题" class="headerlink" title="魔改主题"></a>魔改主题</h3><h4 id="评论功能"><a href="#评论功能" class="headerlink" title="评论功能"></a>评论功能</h4><ul>
+<li>我直接使用了匿名评论箱进行评论管理</li>
+</ul>
+<h4 id="躲避搜索"><a href="#躲避搜索" class="headerlink" title="躲避搜索"></a>躲避搜索</h4><ul>
+<li><a href="https://mikolaje.github.io/2019/hexo_seo.html">参考来源</a></li>
+<li>在根目录的 source 文件夹中新建 <code>robots.txt</code></li>
+</ul>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 禁止任何搜索引擎搜索到任何内容</span></span><br><span class="line"><span class="attr">user-agent:</span> <span class="string">*</span></span><br><span class="line"><span class="attr">Disallow:</span> <span class="string">/</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="站内搜索"><a href="#站内搜索" class="headerlink" title="站内搜索"></a>站内搜索</h4><ul>
+<li><a href="https://www.moonloss.com/post/hexo-localsearch/">参考来源：基本</a></li>
+<li><a href="https://github.com/ChrAlpha/hexo-theme-cards/issues/91">参考来源：search无法正常加载</a></li>
+</ul>
+<h4 id="页面优化"><a href="#页面优化" class="headerlink" title="页面优化"></a>页面优化</h4><ul>
+<li>TOC与正文间隔距离修改：<code>themes\cards\source\css\style\_functions\toc.styl</code><ul>
+<li><code>line 78: padding-left 2rem</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="文件管理"><a href="#文件管理" class="headerlink" title="文件管理"></a>文件管理</h3><ul>
+<li>在文件管理方面，我的主要需求是<ul>
+<li><input checked="" disabled="" type="checkbox"> Obsidian 可以用作我的.md编辑器</li>
+<li><input checked="" disabled="" type="checkbox"> Obsidian 的文件目录与博客文章管理目录基本相同</li>
+</ul>
+</li>
+<li>从 <a href="https://hexo.io/zh-cn/docs/front-matter.html">这篇文章：Front-matter设置</a> 我们可以知道，文章主要是通过 <code>Front-matter</code> 进行管理。目前根据我的理解，只要在 Obsidian 文章开头设置好元数据，便可以很方便地将文章发表到个人博客上。</li>
+<li>通过利用 Obsidian 中自带的模板插件，编辑时可以将一些常用的代码插入到文本当中（<del>以省去我搜来搜去的时间</del>）</li>
+</ul>
+<hr>
+]]></content>
+      <categories>
+        <category>🍩 AboutLib | 博客纪年</category>
+      </categories>
+      <tags>
+        <tag>造物</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《那些桥》</title>
+    <url>/posts/on_the_bridge.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>黑色星球之上，今夜星光依旧灿烂。</p>
+<span id="more"></span>
+
+<blockquote>
+<p>所有的桥都孤独，<br>而声望对它们而言是危险<br>对我们也如此，我们却误以为<br>在我们的肩头感受到了<br>恒星的脚步。<br>可是在消逝者的落差之上<br>还没有梦为我们搭起拱顶 [1]</p>
+</blockquote>
+<blockquote>
+<p>Ours is essentially a tragic age, so we refuse to take it tragically. The cataclysm has happened, we are among the ruins, we start to build up new little habitats, to have new little hopes. It is rather hard work: there is now no smooth road into the future: but we go round, or scramble over the obstacles. We’ve got to live, no matter how many skies have fallen. [2]</p>
+</blockquote>
+<p>[1]: 出自 英格博格•巴赫曼《那些桥》<br>[2]: 出自 D·H·劳伦斯《查泰莱夫人的情人》</p>
+]]></content>
+      <categories>
+        <category>📰 Excerpts | 它山之石</category>
+      </categories>
+      <tags>
+        <tag>希望</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>DS8 結課紀念</title>
+    <url>/posts/end_of_DS8.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>220714-221016 | 在大洋彼岸的校园中呼吸平常的自由</p>
+<blockquote>
+<p>And for the very first time in 30 years of teaching,<br>l have taken an introductory class<br>with no math or computing prerequisite<br>and taught them how to do nonlinear regression.<br>There is no other class that does this.<br>You have enormous power.</p>
+</blockquote>
+<span id="more"></span>
+
+<p>之所以决定写一篇博文记录结课，一是因为这三个月我从中学到了很多（从Python零基础成长到可以用Python写简单的分类器），二是因为这系列课程给我留下了不少被触动的瞬间。</p>
+<p>说来惭愧，<a href="http://data8.org/">DS8</a> 的课堂是这四年来为数不多满足了我对大学幻想的课程之一，而我对大学的幻想，不过是自由散漫的学习氛围。从这点看来，倒也不是我该惭愧，反而应该是此地诸多高等学府的羞耻了。</p>
+<p>DS8 的三十九次课，给我最大触动的是老师的真诚与鼓励。那位授课老师反复地鼓励我们提出疑问，反复提醒着当时在场的学生：大部分人都有着与你一样的疑惑，如果你是少数人，那么助教会帮助你解决你的疑惑。</p>
+<p>在之前的教育中，我习得了对问题的羞耻与窘迫，而当我通过互联网来到了17年的大洋彼岸，我才听到了一句对在场的人如同呼吸般正常的劝慰。也正是在那刻，我更加相信：故弄玄虚并不能使知识抬价，知识本就是平常而真诚的。</p>
+<p>除此之外，当在场的人如呼吸般讨论选举公平性等社会议题的时候，我，作为一个时刻被迫谨言慎行的人，不免被平常的语言表达与交流触动。三个月以来，我不时会点下暂停，对着17年秋季的课程录像陷入沉思：在大洋彼岸，原来有人呼吸着与我身边不一样的空气，那里存在平常的真实的自由。</p>
+]]></content>
+      <categories>
+        <category>📜 LearningNotes | 学习日常</category>
+        <category>💻 DS Learning</category>
+      </categories>
+      <tags>
+        <tag>DS8</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>📌 Change Log 更新日志</title>
+    <url>/posts/change_log.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这里是关于这个博客的更新日志，长期更新（大概）</p>
+<span id="more"></span>
+
+<h2 id="🤔-想上线的功能"><a href="#🤔-想上线的功能" class="headerlink" title="🤔 想上线的功能"></a>🤔 想上线的功能</h2><table>
+<thead>
+<tr>
+<th>加入日期</th>
+<th>任务</th>
+<th>紧急</th>
+<th>必要</th>
+<th>目前状态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>22-10-22</td>
+<td>文章漫游</td>
+<td>❌</td>
+<td>❌</td>
+<td>要修改权限</td>
+</tr>
+<tr>
+<td>-</td>
+<td>顶栏导航</td>
+<td>❌</td>
+<td>⭕</td>
+<td>-</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="🤗-以下是更新日志"><a href="#🤗-以下是更新日志" class="headerlink" title="🤗 以下是更新日志"></a>🤗 以下是更新日志</h2><h3 id="2022-10-22"><a href="#2022-10-22" class="headerlink" title="2022-10-22"></a>2022-10-22</h3><ul>
+<li><a href="https://github.com/D0n9X1n/hexo-blog-encrypt">隐私设置 hexo-blog-encrypt</a><ul>
+<li>之前装了之后发现很丑，需要改CSS，卸了</li>
+<li>又装了回来，因为发现有些主题还挺好看的，将就用吧</li>
+</ul>
+</li>
+</ul>
+<h3 id="2022-10-21"><a href="#2022-10-21" class="headerlink" title="2022-10-21"></a>2022-10-21</h3><ul>
+<li><a href="https://github.com/hexojs/hexo-generator-feed">rss订阅 hexo-generator-feed</a><ul>
+<li>订阅只需要在主页域名后加 <code>/atom.xml</code> 即可</li>
+</ul>
+</li>
+</ul>
+<h3 id="2022-10-17"><a href="#2022-10-17" class="headerlink" title="2022-10-17"></a>2022-10-17</h3><ul>
+<li><a href="https://github.com/Drew233/hexo-generator-random">文章漫游 hexo-generator-random</a><ul>
+<li>会随机到一些不想被别人看到的页面，安全性担忧</li>
+<li>后续可能会采用不用插件的方案</li>
+</ul>
+</li>
+<li><a href="https://github.com/rozbo/hexo-abbrlink">短链接 hexo-abbrlink</a></li>
+<li><a href="https://developer.spotify.com/documentation/embeds/guides/creating-an-embed/">文内音乐播放 embed track</a></li>
+</ul>
+<h3 id="2022-10-16"><a href="#2022-10-16" class="headerlink" title="2022-10-16"></a>2022-10-16</h3><ul>
+<li><a href="https://theme-cards.ichr.me/pages/">归档功能 archives</a></li>
+<li>更新了一下CSS代码（子分类缩进）</li>
+</ul>
+<h3 id="2022-10-15"><a href="#2022-10-15" class="headerlink" title="2022-10-15"></a>2022-10-15</h3><ul>
+<li>创建更新日志</li>
+</ul>
+<h3 id="2022-10-07"><a href="#2022-10-07" class="headerlink" title="2022-10-07"></a>2022-10-07</h3><ul>
+<li><a href="http://this-lib-cannot-afford-other-names.xyz/posts/genesis.html">创建博客</a><ul>
+<li>初步配置有<ul>
+<li>站内搜索</li>
+<li>匿名评论</li>
+<li>躲避站外搜索</li>
+<li>置顶文章</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>🍩 AboutLib | 博客纪年</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>在太平洋衝浪要做好防溺水措施</title>
+    <url>/posts/dos_and_donts_when_surfing.html</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="b9b5a8cee2ce3b641028240a869c55eaa086e2943738e9def24ccf5522ff8476">8c0ad904feeeeaee5c391bb025cfbf5ccadb67ed3ec9e987bde8029802affd6bb83df64f08dfc27cebae8a8611bf151e026c6137fc6efd6abd256ca68bc847b4dc1b9c01c3c3f373709390a7e5d1f60eee98faaf7b44cb44e04130b07f965d0f4b524f9f1aa2783ed54c21252aa122a00d69a610f5b369878557a1b0f8ec3d14c4ee9e60f70286c468dd762fcd931a684aa69ad0e835e778fec7e9bc39d066eeabcd6ced6eebd0a693fc55e9efaae56d5f2f322e1a90877d735b295f4e3f740097c495899c2da1101554c1a7b25a644ff35c3c616bc6a77fa0cc3418bb8e9e42d089dcf6a47a14b677dd0fabd3d4e523d4c5818361d32259d19834fed9a06fcd8b789d2d91ef124a2fecb4d5b2eccbbaebbabd5c556a163af57abf015896f5be124196942abd90ac6f776559597a0bafd0fe2a2b9d33d572a1281ad5d5e2b9be58aca26a0ac764fc0c57d3ee5c18724938a59b324fc7807eba9ce09f6db843a2d7c0979039fab8f7f371d1c609215fe956510e2a0aabb2eff64a75f579a0e5759adcba715f797c592fe6d805e5f7e2870c3e7d85d109700b97baf1be0c2babea08345eaad92df2e0a7c24bd663407174d6727b0ad992ea97e306ad7f9463a06ea658f91c11f5a901405eae0965d05ca7a279b2866e00539fe2c093cca9e511a0f9cbff14158c6b772c5847c5e5c35f220836c3a726d2c718e9a7e0dc8588628c89f254e82a505c6c0b4b7e269882699cb39e246ccd882a3c5d178e2efd879db2db49f44565936def0a5b3c79ab30473c3ba8af3af00dccd3da802156a6365edb395d103a0d77fa1f9c44becb4e667c57a2150748cc9d34fbe2980a4ad93f8635c2e301fed2b76e9f0d1ca17b55d298cbb854665bfd602b1b610a7edee07c962787351987e6ec92220bf4414a13db04c2adcc6b43fc68068bbecb8c83067f3ee21faf4c5d022ec0512b9b6a88813ae5dd4ff7700e6144a2ddd29dac981ceb1399543fa6a138657accb8d7c9b0e4bd2b9dfeb7be9672b770366c131dcebf9bdf59b9685707fc1b6a1b9b404b02f88c821aca7ff0ae00c8974838b567eb05900b431ccc655ac20b9fede501aad558ee9299ffaaddfc3a67c6b2f3aa6eab2dea0033e826772fc924c7799723fa249a6ff3d37095bb5290e85c22a7e56825dbdc5a2265659ce15f313106cf14e12a6801ca39e8bce0200ab56041bd98de3e29cac8cdcd386a7a11e5c37488864fce2ec28bc00148f8326a05a21ab9d4760ad9d3b9c31c83ee2cdc703f6456a4ed2bfd5de0073147a3a8f4c4787036db8f0a4de30aaa23a81fe8b6070041df1105b6bcefc1ee457fa15e9b0273644f7a15fd1c2dc6e1520925fbad62794c5411fb65c9596d5674c1b8e51d05cfe48cf680fbf095325c61b22557801af8e31c5170c73888c17970bb25c13c6bfbd75c1431f028ee4ba9412ec30e74c63630921fc31f5e99e0c4f06e407c83475da7702e955179592725ba901155d4c68e47a70fa6a59e46d9bb91a1f5d46cafec02492b22db32f53bf563b3c8efa2c6a90280942c0b60dbceb4ca99fd6ca4c664eb7487c87950531157f4d660343d260829064ada08dc510ca848b077138a1d80406edd9daa26714adbd4e5fede11e5bdd81daf33aa1abbadfff91125171f6691247be694947131580701aa10647953d9e457f6eca99e4ca92b9de0a0226063b37c0ad4044b9966c5e1bc252fa4e098647da0c8cfeabff1861e3b348c386f79a2ca585b081632622ebed3f974cde51b08d4ec99777940f892b4cd0d079f65e2e1b15e60f76ef3e476d2cba8261568aeeba8371fe9a6f8c5678525a5c0aac7502063f33708a16679b346e894ce84db64816dbbcdbf2467a5b07690b0095161b746951abc10836b95c9b7445fa8f0ca8917f3334708da1adae4f40a9040b4cb94d35472889cbeb8d6e107847c0d91c61232ef1f699d427a7a3e1a00f656e13333fd32b7bb0633ec5a23eae02b01633dd0457d89c9daf4026aa7e9e4a01aa84dafeee02b9e3ec5f7ea8e2f6537fab2522a7b393b118472ffd648c39b77b17b5e7bf8880286b67535a8f003a6ef3a246afe532ec5d3d2d242a348bde171c4a58b4ed153f7e6d2fb836c046f058283f014883349b8615578db2e21df39756b68df59d8f3999128d1e4373be8e6dd483726842b5f77e1e878b8b7765cfa3942ca525c475c05c5d09acd1167b626c4a2526b4af303c2086bd916f87167ab7ab9aebf2c018efe0b0b046a917e28ab7b9d7faf3959a94331f09c3eb9059687c34e5be0b3040b9d82c87620718b4bda685cec406102b13a0ac0b663372b90c8f1fea2022ce13ac1b1e8af9ab26781e81073d892cb19b64a7b51f394a6fcb6a7b28951bc91b150fce14846a041e2be782732d34e87193f0559bef83ff2924dbeb41a8081e0c23f47c728b1ce6fce02134380b0cb9cfa00157b000eaa656238e649de3a86a4de8ab778d9a75d6def8b8f1c1362cca71e18ac23cd38e56e3b2e5c9b3c11b251e11595026a5723a58aa9ecd196b22985f44c6b84dd54af14d520965468ae40bf691eae41381adf0c3b0967cf4e54345337f05a8726a8b8e4e950331c9814a43f77ba2943116302f4a5b086e19744178a8d4f6b6d89bc930a4d509233d29dedb07e3c82198e425a4e5ff6f0a461df802fb59dd0011a1f18d72f7a6bcadf05bc03c1fd2c8eb18ffa9a11eeceb8785c47969c53ce8689a65a88e61a1884423b8a8cf0be5edbe94ae3eb4f2623b081d57205e5460e69baff3db4a1a59283d8de1fdb298c927bc45442b00852581a8e8289229369965d14bc9ea118b8a8bcd594cd9e68882dc7add74de921adcf2131992e4e0afd4ccf281c4192da53c240856f101ba871150a0f2ca1ac3871e72625216e80d51ac89730e28da551cd62cb5a44b9a5910474a3e4d773fa91a39931bd23786c3e5aefcdd15ed0f8f38a4e4e9b59ffe6f809d96d2a922d42bfa599a6822ace7a41d440855b02e33c63439de5124a1ec3f434e7dde3b6a35bec0ec501b07c4a2b10e92b31ca950e3d8215c047c7fb83c66a8eefa0fd4f2f8f1a44b500eed454b0af26038d382e3035a3b35c5deb053efc041b307d5937e272c0062dff11e6b2538d17d8ad20a3ab3bd7723d81c635c16fc4a45a50d257bcb4b1d03802486f97a7e9c736b4a88c0b6e1eb03a74359ebf7337bb62b9ebce5ca688f06b2248963dbb8666a3f721829fdd4f4b579c4d61c1b86ed51d565a6409fcc45527b178e22740066191b14e6f41613792d9db209050ddebfcd13ed3e373f7a79adb0fd9fcf50ec5eeca0be4f97b5aab545169a4eda208b986befe8c1fac9ae5a7e33fd6ef0dbf4ee789d9f16891b760ad96ed1d9d6b56149fe6f78bc39e5a5b015600e387c5ecacf4895e15469a5b8ac922334b4cdd5d1cff0de5bb200ba224bbd6523e7e32ec65485a808e8b5df565915251f7ab8f471e2075b4a5f04b79db2478e2d2bd6828f1208c5dc97d2c8cbe1d3943283d0eba5e4b27a66df6fd557801e7d9a91f4aa946a77efc2797772a3bfe4f68bf99ea5a83a0a62573588319206a15be33001002c7d9a74ba17f3fe61d3612c7f2c8b757a7906640272f946435b0edb409fccde4b784b7fb8b81b57dda07aa91e3bd111da6111209a27fb881e73feb14f3aaee0731441a5774d6eb0edaf4ba51e077292ed0ee8ab8a88605e85ee4f9a1ce69eb39417b1bc8ff9445b37df01a4fae8c81b9fc2be1b28b292131ecddeb62846ce17060fd5d4bb5a2b8e69cfdfd201a8779b5c31d156fa52d42e92d8de6b881636969d44bc3b0109c2e57bfcec091ea979e4a04dc725d02ea4ebc0799467bdf9ff56e3428c6a8ec4b3e201250830135ad855df90290f8f6cbddc75e01dd9954d040e73499c407446b4d7592704d958cb24f4268c41941fffe5067121eefe0c6c5645dd22c9f048feb07102d1d326192645d6c631a4a4b549482f6e6b06ed1c023fcb1c500b863522f489433a2c027b8dbb1ba6915b509a5487dd918a1e649b0aef028286f802fcb1931855eb189f02a013326373aca239c7ddb292e20948a5551a4733e8d90170f69fe6f1b96dbb16162566bb1ee8c121649ea55acf07b70bdfa0bd987ecf64aa5f405f717dda2c0836f1f4f6f182ca24ce966109b577c670611fe78eeaff7a034b526dbd120a961dda8b67e1cac141a9f2216e50de77a99066bebc1f6cd77fde9149e9b99de47a3a14ff493631159848e7013ca96f0cb8394487ded4da4bfc10d7cfcf7efd18ec114a058ec9f29c4df611560e7459d7d4ea287d1456195a14e3b9dbfb08e0710a5e6f5e5eec35d049f300942b0dafcc733dcf837d4a6fd82281de503ec6fa06779e10092ece0fa081401d502bb6ce61369958b42efac9853098c4ebf5bf8b8142a36225c1290ffe7fcb852981b24478b7e3c0aff4a476fe01874e464c05b78432dfe2a9fe6594fd9c3480fa00488b942d42762283d5eee38028fdf2a7214e0f69cd3d13e0030be5c1e989018fa7c0b8c17895a75b411a18844182965dcbecb71e6a3d3eb9a646e8aed3903f158d8cfc842b28b5c9575de7bde6939f1dac1ffb7c1cbdb640573e841c0897720b3f1a4ebefd0932da3d54eea5ae95e720724ce48f9054dc211f76b59f46146842562c86a3a2b1839c241b4536bd2abb4f2a41ccad5ae0ddd70750b7debabdb17f34ea8de6f56d1f4d3b7ca71f69a4747d758488bd6b027e920d048bb1c1e6db71b3cea2f8f5df97c81a647d006886078d01a24b3fad31149c74625f229586f0c41089a119f1469bced880d718bec5e53042b428ad2296f326884d49f71e979cb5744d5600b96a422d8fa093ae936d341cc450bdf45f161d3d6d1231b78b92ff6b2d6e94ce0ea0531163dbb8e5b0828531ee951973d43085684f46576b22403225c6b31f0791f742714c7cf7b478e30d89158d8fb1f527ed062237e14b05ceaebf6dc436d9c840d98fc2834552dfa7e4e202c3d101bf9dacdbba441ef887f3680ee076d62ff8254423c86c724136fa1812de885c95da685874e403f0559d1d1b121bfc443f1e7f933e253574c2d588dd8263e7b644d326f049ca01a48aedc24fd9a956052aa6b89b9ac89ba7a439b46222434daf746b320e58673d2146da42f5aea7cac32dc421fce65267c445ea6b0cd06109318b0a7b4b638b787314fd5d5b8a7f11b7891b013ff5f051690e632b29165fcbcf91f807540865eee2c2f06772cc7d5865783e65ac12b387b55a11e6eb7c30a9739167e9dd0b810cd577d7abd826a4c8800f7fae3b5ca035ba39f0a0091d34fabcf67189f5e9e8b745b019d4dd4449865123c0e2613c4b12a89eae5a38121e173310d05d2cdb8e587d967c5a74a8cb8c19b081cd8662c1d7c2911aa28fa25b48d997bb7c0378a1e65299187c8ab2b1e93b3986db18f2e2b05de2a4f8d4949258a23cafd20ad6fe16a1170ab550df223bd637ebcd7481054a7a59b8747923dd74df799b18d2a0822a22dcf3098912bd063507b9dea4489f3d4052d2f413231f8b3b7b65063338c70c5ad761b55cb483e8f4b803bd00cbf4f60735f3cce204e10b19154b60da872cdd7eee186a107bcc616c4d0219419b082938166cb261fd01f97fd4cce7616ce69934ee05f9a52d46387e360152d0b9a8b78b8389d83aa67c0e81bdeade33579477ab9e9fa86d8fd2d76773e0d6894d1d959cea85ad577b6056f26476a973129c0c4d5ba158d9fc1b67134c326485649194936f7cd9a1f5a0197e0650de96177795bb5adf266205616ce5f322c90acbdf5bd8c42828ddd72f71d565bc8ff867894c8900cf24cada3d51307beb152a92b477b3121429bef17a9fa9e701f46f7fcefe7d514c114dfe459410c0c9dd5945036b8ab0d23facddad79a804fd55f0a555542aae21e0945160ed5dbd80026f9f3f01959fc74f6b3d6344254a7d224f55f50df7fb29f5e48c56e7f2ff277924848a7cbdbd9a850d6454a568077b657d3a241d0e99d12550b1aaf8f6b9852c11ca754d547846b3d92cc64da82b69faedff2af2a959241d17e9e72116fe872da81fbb93d91a6ff3ac87379002af50b38bd3d9b1d63bca13bd7e698f694fc586962395269b29249922336e4066076bcb04deb7c9269bfa4edef7ca0c64c611c65eb9abe2e222c280f3ba162dfa79ed7c204f90196bc8aae43403c1c7926fbd861721d133111ce8b23a5dc35c661dc7f48a807818ab73bebfbdadf8032f79cb2b1f29c2abae0aa4748333db1e8268bd0b320b9b17ad35df956e3d3be7a230d240cd5b89ae3b4ac06b5fae8cacf12c94d8d4bb5110bd4edd496373826b926e8fef9cc7b1a347bcde77efcfdc0e87022f88ef76a115c9e0b54726c3fad9c50ea7f1ce210d2a1c2538846fc4efcb13017c7e1df9a77b56fe36c409e3c84fc5510c5b29b49912e885b33cdcf0f03c1ee6787a4176c1bb6ea81b891eb1799c58d43df52efafc248759917229ecae508212ee9121a0ea773e53b6c3612081b78ebc7b744f58ba3e02e81b425473c5e4a86d0bfb9893d61418c94bac1e560a55fb083d3eefa53c0df500d1a22d755d5e28bbb7361760287dca3b4fcde159406dc0ec71fd1a9e82f5ae23ae2a57f1d888b8cd49e9e9fcdc2e83724f68b39cc4bbc775cd227ec879094bb8910fe6d2d1185e994adf1c941a8b42827e32206bac924208ea0c72e3e320ac088a3481d69b99a601cac60a6c9cde4dec8a64bc67bab5d0cc5760d0be14117d1cc6bd0527f07a2d4dcba68f781726da129e749c4a4826c44eebe1ccf97e630bc7cfc75cfd19b953a8e395ee3860006d5e26b11854d4e0a</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-xray">
+      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">···</span>
+      </label>
+      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>
+      </svg>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>📜 LearningNotes | 学习日常</category>
+        <category>🍻 安利</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>一些摘录</title>
+    <url>/posts/initium_221022.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><span id="more"></span>
+
+<blockquote>
+<p>最早提出迷因一词的，是英国演化生物学家、动物行为学家理查・道金斯（Clinton Richard Dawkins）。他在《自私的基因》一书中指，迷因是文化中被认为经由非遗传方式、尤其是透过模仿来传递下去的元素。《牛津英语词典》也收录了迷因一词，并使用了上述定义。道金斯进一步说明，迷因可以透过模仿、复制，将想法、观念、行为或技能从一个人的大脑移转到另一个人的脑中。</p>
+<p>英国心理学者苏珊・布拉克莫（Susan Blackmore）延续道金斯的观点，在《迷因》一书中指，网际网络让迷因快速发展，尤其以“高保真度”、“持久度”让迷因不断复制、传递。迷因也从产品复制到指令复制。苏珊・布拉克莫举例，厨师能复制一款浓汤，但为了让浓汤更有效地传递出去，就要复制食谱，有清楚的指令，便能够让这款浓汤的味道散布出去。她认为，一段字词、一个故事、一套规矩、一首歌曲都可以是迷因，最经典的案例大概就是全世界都理解的“生日快乐歌”。</p>
+<p>[…] 政治大学传播学院特聘教授林日璇撰文《台湾网路社群的迷因文化特色是？元宇宙概念中那些迷因最红？》，提到传播学理论中的“社会资讯处理程序理论”（Social Information Processing Theory, Walther），网民以匿名、半匿名方式互动，文字容易造成误解，进而引发笔战，若是增加表情符号，则能加强传递想法。而迷因、梗图的出现，更能补充文字的不足。甚至发展出社群中独特的梗，作为团体内认同的文化。<a href="https://theinitium.com/article/20220714-taiwan-meme-1/">1</a></p>
+</blockquote>
+<blockquote>
+<p>地狱梗指将笑点建立在特定事件或族群上，并带有浓厚的嘲讽、冒犯、挑战道德底线的意味。一般来说，地狱梗就是让观者感受到违和、不协调而产生幽默感。不过，地狱梗的接受度也随着心理距离而有所不同。心理学家 Peter McGraw 与 Caleb Warren提出“良性冲突论”，笑话要落在有点痛苦却又安全愉悦的良性冲突区间，才会让观者愉悦，笑话与观者的心理距离太接近则会成为威胁、降低幽默的感受，太远又会因为冲突降低而无法理解笑点。</p>
+<p>打着开玩笑大旗的地狱梗界线到底该如何界定，幽默、不道德的界线又到底怎么区分？在台湾大学外文系教授黄宗慧、东华大学华文系教授黄宗洁姊妹合著的书籍《就算牠没有脸》中指出，佛洛伊德曾说：“每个笑话都会募集自己的群众，而为同一个笑话而笑是心理一致性的明显证据”。黄宗慧强调，就如同其他的地狱梗玩笑，看似无关紧要的玩笑话，随着笑话的传播，歧视的态度一再被合理化。开玩笑的人主张豁免权，不应受道德批判，被嘲讽的对象若介意了则显得“不幽默”，造成二度伤害，严肃议题若成了玩笑，也许就很难再回到主题本身。</p>
+<p>黄宗洁则更进一步指出，同时保有幽默感与道德敏感度并不冲突，一位谴责玩笑未必能让彼此理解，如果人愿意时刻提醒自己保有敏感度，“每个人都可以画出谑而不虐的那条线”。<a href="https://theinitium.com/article/20220714-taiwan-meme-1/">1</a></p>
+</blockquote>
+<hr>
+<blockquote>
+<p>当然，阅读量得到满足后，“阅读收获”的理解也是因人而异、因时代而异的。如果说上世纪80年代，书店每一个排队的人都曾强烈希望改变命运。那么21世纪迈进信息社会， 以价格换算阅读量的斤斤计较背后，将阅读体验理解为“不可计量的收获”的背后，是罗振宇、吴晓波、樊登等中国商人用泛知识类App（如得到、分答、樊登读书），打造的“知识经济”盛宴，推崇智识崇拜，寄托了关于新奇知识、自我探索、世界认识，财富最美好的梦想。<a href="https://theinitium.com/article/20220606-mainland-kindle/">2</a></p>
+</blockquote>
+<hr>
+<blockquote>
+<p>没想到的是，自由度的收紧比我以为的快太多太多，短短一年时间，我已经不得不学会内在地消化那些愤怒，或是用极委婉的方式才敢尝试着做一些表达。在不能言说的时候，我自救的方式是尽可能与更多同温层产生联结，而mla让我看到联结的起点在何处——当言说空间日渐萎缩，我们可以在生活的细枝末节中收获力量。在春天乱搭巴士，在动物园散步，或是在麦记独坐一夜，我们可以在小世界给自己有限的自由，在低空的飞行中学会关心自己和自己身边最平凡的人，借共情的能力打开自己的边界，用敏锐的私人体验反驳宏大话语强加的标签，以及心里一遍又一遍告诉自己：“在炎热与抑郁的夏天，不要停止写诗”。<a href="https://theinitium.com/article/20211016-note-readers-voices-7-mla/">3</a></p>
+</blockquote>
+<hr>
+<blockquote>
+<p>MLA 那幽默感Hongkongness，从名字就开始。非香港学校成长难以一click 即中（学生时代开玩笑说平胸的女生是“飞机场”，但这个in joke似从没被公开认可为组合名称的由来，只能各自领会）。甚至乎，MLA作品中很大部份呈现的，就是这种in joke，懂的会懂，不懂的，要解释就多隔了一重。这种语带相关，要求一份对香港通俗文化的基本理解，贯穿了整套作品。<a href="https://theinitium.com/article/20211002-culture-my-little-airport-these-years/">4</a></p>
+</blockquote>
+<blockquote>
+<p>没有声嘶力竭，现场演出，只静静站在台上，娓娓唱出，不会跟随大队哥哥姐姐去综艺节目飊高音，这就足够贯彻另类我行我素，保留了一定程度的独立精神。</p>
+<p>扩音器传来，叫人随歌起舞的噪音天天在响，这个时代的香港，得保持自己有亲的语言，以及冷眼的幽默感。当主流将逐渐被主旋律取缔，另类乐风与游击演出的意义将更重要。从演出到作品，歌词唱著的无聊和磊落站于台上不摆动的姿态，就是这城市赖以传承及唱不完的故事。<a href="https://theinitium.com/article/20211002-culture-my-little-airport-these-years/">4</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>📰 Excerpts | 它山之石</category>
+        <category>👁‍🗨 TheInitium</category>
+      </categories>
+      <tags>
+        <tag>端媒</tag>
+        <tag>MLA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>About</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
+  <entry>
+    <title>Kindreds</title>
+    <url>/links/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
+  <entry>
+    <title>Archives</title>
+    <url>/archives/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
+  <entry>
+    <title>Categories</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
+  <entry>
+    <title>Search</title>
+    <url>/search/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
+  <entry>
+    <title>Resources</title>
+    <url>/resources/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
+</search>
