@@ -1,29 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>那個下午我在舊居燒信</title>
-    <url>/posts/burning_letters.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0PYOuxa9oUTm8LlkagkxYE?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-
-<blockquote>
-<p>茫茫如水一般日子淌過<br>如風的呼吸記憶於我</p>
-</blockquote>
+    <title>《那些桥》</title>
+    <url>/posts/on_the_bridge.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>黑色星球之上，今夜星光依旧灿烂。</p>
 <span id="more"></span>
 
-<p>那个下午我在旧居烧信，细数着自己十九岁之后的四年人生。我常常在想，在这段时间里，我是否有鲜活、自由地活过。</p>
-<p>在20年之前，也就是疫情前时代，我享受过半年无忧无虑的大学生活。那段安逸的时光里，我除了上课什么都不用想。在此之后，我的生命飞速地在居家、内卷、封校等枯燥乏味的事情中度过。</p>
-<p>转眼间，我快要毕业了。我如愿以偿地被理想的学校录取，可是我发现我的四年实在无聊。</p>
-<p>我不能说在这四年里，我没有好好地享受过。我只觉得，自己一直像一只来到陌生环境中受惊吓的动物，我的应激体现在我沉迷于图书馆-饭堂-宿舍的三点一线之中，除此之外，我独来独往，也鲜少将时间大量地花费在学习（无论是专业学习还是自己在此之外的学习）上。我放弃了自己大多数的兴趣。</p>
-<p>于是，我虽然在无意义的竞争中倔强地保持了自己的本性，但是我某种程度上成为了一个无个性无兴趣的人。我喜欢画画，但是自大学之后，我鲜少提起画笔；我喜欢看小说，但是似乎大二以来，我也没看多少。</p>
-<p>我生命的火焰本应在此时熊熊燃烧，然而，我并不觉得自己是个非常有生命力的人，也不觉得自己此时此刻是一个被理想驱动的人。我不断逃避，但是鲜少奔赴，仿佛我的前方已经失去可以为之奔赴的目标。我羡慕着朋友自由生长的模样，而我的生长并不自由，它不过是时间流逝的必然结果。</p>
-<p>不去逃避，去面对，去经历。这便是接下来我能做的事情。</p>
+<blockquote>
+<p>所有的桥都孤独，<br>而声望对它们而言是危险<br>对我们也如此，我们却误以为<br>在我们的肩头感受到了<br>恒星的脚步。<br>可是在消逝者的落差之上<br>还没有梦为我们搭起拱顶 [1]</p>
+</blockquote>
+<blockquote>
+<p>Ours is essentially a tragic age, so we refuse to take it tragically. The cataclysm has happened, we are among the ruins, we start to build up new little habitats, to have new little hopes. It is rather hard work: there is now no smooth road into the future: but we go round, or scramble over the obstacles. We’ve got to live, no matter how many skies have fallen. [2]</p>
+</blockquote>
+<p>[1]: 出自 英格博格•巴赫曼《那些桥》<br>[2]: 出自 D·H·劳伦斯《查泰莱夫人的情人》</p>
 ]]></content>
       <categories>
-        <category>🍵 AboutMe | 生活碎片</category>
+        <category>📰 Excerpts | 它山之石</category>
       </categories>
       <tags>
-        <tag>達明</tag>
+        <tag>希望</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>📌 Change Log 更新日志</title>
+    <url>/posts/change_log.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这里是关于这个博客的更新日志，长期更新（大概）</p>
+<span id="more"></span>
+
+<h2 id="🤔-想上线的功能"><a href="#🤔-想上线的功能" class="headerlink" title="🤔 想上线的功能"></a>🤔 想上线的功能</h2><table>
+<thead>
+<tr>
+<th>加入日期</th>
+<th>任务</th>
+<th>紧急</th>
+<th>必要</th>
+<th>目前状态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>22-10-22</td>
+<td>文章漫游</td>
+<td>❌</td>
+<td>❌</td>
+<td>要修改权限</td>
+</tr>
+<tr>
+<td>-</td>
+<td>顶栏导航</td>
+<td>❌</td>
+<td>⭕</td>
+<td>-</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="🤗-以下是更新日志"><a href="#🤗-以下是更新日志" class="headerlink" title="🤗 以下是更新日志"></a>🤗 以下是更新日志</h2><h3 id="2022-10-22"><a href="#2022-10-22" class="headerlink" title="2022-10-22"></a>2022-10-22</h3><ul>
+<li><a href="https://github.com/D0n9X1n/hexo-blog-encrypt">隐私设置 hexo-blog-encrypt</a><ul>
+<li>之前装了之后发现很丑，需要改CSS，卸了</li>
+<li>又装了回来，因为发现有些主题还挺好看的，将就用吧</li>
+</ul>
+</li>
+</ul>
+<h3 id="2022-10-21"><a href="#2022-10-21" class="headerlink" title="2022-10-21"></a>2022-10-21</h3><ul>
+<li><a href="https://github.com/hexojs/hexo-generator-feed">rss订阅 hexo-generator-feed</a><ul>
+<li>订阅只需要在主页域名后加 <code>/atom.xml</code> 即可</li>
+</ul>
+</li>
+</ul>
+<h3 id="2022-10-17"><a href="#2022-10-17" class="headerlink" title="2022-10-17"></a>2022-10-17</h3><ul>
+<li><a href="https://github.com/Drew233/hexo-generator-random">文章漫游 hexo-generator-random</a><ul>
+<li>会随机到一些不想被别人看到的页面，安全性担忧</li>
+<li>后续可能会采用不用插件的方案</li>
+</ul>
+</li>
+<li><a href="https://github.com/rozbo/hexo-abbrlink">短链接 hexo-abbrlink</a></li>
+<li><a href="https://developer.spotify.com/documentation/embeds/guides/creating-an-embed/">文内音乐播放 embed track</a></li>
+</ul>
+<h3 id="2022-10-16"><a href="#2022-10-16" class="headerlink" title="2022-10-16"></a>2022-10-16</h3><ul>
+<li><a href="https://theme-cards.ichr.me/pages/">归档功能 archives</a></li>
+<li>更新了一下CSS代码（子分类缩进）</li>
+</ul>
+<h3 id="2022-10-15"><a href="#2022-10-15" class="headerlink" title="2022-10-15"></a>2022-10-15</h3><ul>
+<li>创建更新日志</li>
+</ul>
+<h3 id="2022-10-07"><a href="#2022-10-07" class="headerlink" title="2022-10-07"></a>2022-10-07</h3><ul>
+<li><a href="http://this-lib-cannot-afford-other-names.xyz/posts/genesis.html">创建博客</a><ul>
+<li>初步配置有<ul>
+<li>站内搜索</li>
+<li>匿名评论</li>
+<li>躲避站外搜索</li>
+<li>置顶文章</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>🍩 AboutLib | 博客纪年</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>一些摘录</title>
+    <url>/posts/initium_221022.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><span id="more"></span>
+
+<blockquote>
+<p>最早提出迷因一词的，是英国演化生物学家、动物行为学家理查・道金斯（Clinton Richard Dawkins）。他在《自私的基因》一书中指，迷因是文化中被认为经由非遗传方式、尤其是透过模仿来传递下去的元素。《牛津英语词典》也收录了迷因一词，并使用了上述定义。道金斯进一步说明，迷因可以透过模仿、复制，将想法、观念、行为或技能从一个人的大脑移转到另一个人的脑中。</p>
+<p>英国心理学者苏珊・布拉克莫（Susan Blackmore）延续道金斯的观点，在《迷因》一书中指，网际网络让迷因快速发展，尤其以“高保真度”、“持久度”让迷因不断复制、传递。迷因也从产品复制到指令复制。苏珊・布拉克莫举例，厨师能复制一款浓汤，但为了让浓汤更有效地传递出去，就要复制食谱，有清楚的指令，便能够让这款浓汤的味道散布出去。她认为，一段字词、一个故事、一套规矩、一首歌曲都可以是迷因，最经典的案例大概就是全世界都理解的“生日快乐歌”。</p>
+<p>[…] 政治大学传播学院特聘教授林日璇撰文《台湾网路社群的迷因文化特色是？元宇宙概念中那些迷因最红？》，提到传播学理论中的“社会资讯处理程序理论”（Social Information Processing Theory, Walther），网民以匿名、半匿名方式互动，文字容易造成误解，进而引发笔战，若是增加表情符号，则能加强传递想法。而迷因、梗图的出现，更能补充文字的不足。甚至发展出社群中独特的梗，作为团体内认同的文化。<a href="https://theinitium.com/article/20220714-taiwan-meme-1/">1</a></p>
+</blockquote>
+<blockquote>
+<p>地狱梗指将笑点建立在特定事件或族群上，并带有浓厚的嘲讽、冒犯、挑战道德底线的意味。一般来说，地狱梗就是让观者感受到违和、不协调而产生幽默感。不过，地狱梗的接受度也随着心理距离而有所不同。心理学家 Peter McGraw 与 Caleb Warren提出“良性冲突论”，笑话要落在有点痛苦却又安全愉悦的良性冲突区间，才会让观者愉悦，笑话与观者的心理距离太接近则会成为威胁、降低幽默的感受，太远又会因为冲突降低而无法理解笑点。</p>
+<p>打着开玩笑大旗的地狱梗界线到底该如何界定，幽默、不道德的界线又到底怎么区分？在台湾大学外文系教授黄宗慧、东华大学华文系教授黄宗洁姊妹合著的书籍《就算牠没有脸》中指出，佛洛伊德曾说：“每个笑话都会募集自己的群众，而为同一个笑话而笑是心理一致性的明显证据”。黄宗慧强调，就如同其他的地狱梗玩笑，看似无关紧要的玩笑话，随着笑话的传播，歧视的态度一再被合理化。开玩笑的人主张豁免权，不应受道德批判，被嘲讽的对象若介意了则显得“不幽默”，造成二度伤害，严肃议题若成了玩笑，也许就很难再回到主题本身。</p>
+<p>黄宗洁则更进一步指出，同时保有幽默感与道德敏感度并不冲突，一位谴责玩笑未必能让彼此理解，如果人愿意时刻提醒自己保有敏感度，“每个人都可以画出谑而不虐的那条线”。<a href="https://theinitium.com/article/20220714-taiwan-meme-1/">1</a></p>
+</blockquote>
+<hr>
+<blockquote>
+<p>当然，阅读量得到满足后，“阅读收获”的理解也是因人而异、因时代而异的。如果说上世纪80年代，书店每一个排队的人都曾强烈希望改变命运。那么21世纪迈进信息社会， 以价格换算阅读量的斤斤计较背后，将阅读体验理解为“不可计量的收获”的背后，是罗振宇、吴晓波、樊登等中国商人用泛知识类App（如得到、分答、樊登读书），打造的“知识经济”盛宴，推崇智识崇拜，寄托了关于新奇知识、自我探索、世界认识，财富最美好的梦想。<a href="https://theinitium.com/article/20220606-mainland-kindle/">2</a></p>
+</blockquote>
+<hr>
+<blockquote>
+<p>没想到的是，自由度的收紧比我以为的快太多太多，短短一年时间，我已经不得不学会内在地消化那些愤怒，或是用极委婉的方式才敢尝试着做一些表达。在不能言说的时候，我自救的方式是尽可能与更多同温层产生联结，而mla让我看到联结的起点在何处——当言说空间日渐萎缩，我们可以在生活的细枝末节中收获力量。在春天乱搭巴士，在动物园散步，或是在麦记独坐一夜，我们可以在小世界给自己有限的自由，在低空的飞行中学会关心自己和自己身边最平凡的人，借共情的能力打开自己的边界，用敏锐的私人体验反驳宏大话语强加的标签，以及心里一遍又一遍告诉自己：“在炎热与抑郁的夏天，不要停止写诗”。<a href="https://theinitium.com/article/20211016-note-readers-voices-7-mla/">3</a></p>
+</blockquote>
+<hr>
+<blockquote>
+<p>MLA 那幽默感Hongkongness，从名字就开始。非香港学校成长难以一click 即中（学生时代开玩笑说平胸的女生是“飞机场”，但这个in joke似从没被公开认可为组合名称的由来，只能各自领会）。甚至乎，MLA作品中很大部份呈现的，就是这种in joke，懂的会懂，不懂的，要解释就多隔了一重。这种语带相关，要求一份对香港通俗文化的基本理解，贯穿了整套作品。<a href="https://theinitium.com/article/20211002-culture-my-little-airport-these-years/">4</a></p>
+</blockquote>
+<blockquote>
+<p>没有声嘶力竭，现场演出，只静静站在台上，娓娓唱出，不会跟随大队哥哥姐姐去综艺节目飊高音，这就足够贯彻另类我行我素，保留了一定程度的独立精神。</p>
+<p>扩音器传来，叫人随歌起舞的噪音天天在响，这个时代的香港，得保持自己有亲的语言，以及冷眼的幽默感。当主流将逐渐被主旋律取缔，另类乐风与游击演出的意义将更重要。从演出到作品，歌词唱著的无聊和磊落站于台上不摆动的姿态，就是这城市赖以传承及唱不完的故事。<a href="https://theinitium.com/article/20211002-culture-my-little-airport-these-years/">4</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>📰 Excerpts | 它山之石</category>
+        <category>👁‍🗨 TheInitium</category>
+      </categories>
+      <tags>
+        <tag>端媒</tag>
+        <tag>MLA</tag>
       </tags>
   </entry>
   <entry>
@@ -250,27 +364,6 @@
       </tags>
   </entry>
   <entry>
-    <title>《那些桥》</title>
-    <url>/posts/on_the_bridge.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>黑色星球之上，今夜星光依旧灿烂。</p>
-<span id="more"></span>
-
-<blockquote>
-<p>所有的桥都孤独，<br>而声望对它们而言是危险<br>对我们也如此，我们却误以为<br>在我们的肩头感受到了<br>恒星的脚步。<br>可是在消逝者的落差之上<br>还没有梦为我们搭起拱顶 [1]</p>
-</blockquote>
-<blockquote>
-<p>Ours is essentially a tragic age, so we refuse to take it tragically. The cataclysm has happened, we are among the ruins, we start to build up new little habitats, to have new little hopes. It is rather hard work: there is now no smooth road into the future: but we go round, or scramble over the obstacles. We’ve got to live, no matter how many skies have fallen. [2]</p>
-</blockquote>
-<p>[1]: 出自 英格博格•巴赫曼《那些桥》<br>[2]: 出自 D·H·劳伦斯《查泰莱夫人的情人》</p>
-]]></content>
-      <categories>
-        <category>📰 Excerpts | 它山之石</category>
-      </categories>
-      <tags>
-        <tag>希望</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>DS8 結課紀念</title>
     <url>/posts/end_of_DS8.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>220714-221016 | 在大洋彼岸的校园中呼吸平常的自由</p>
@@ -292,84 +385,6 @@
       <tags>
         <tag>DS8</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>📌 Change Log 更新日志</title>
-    <url>/posts/change_log.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这里是关于这个博客的更新日志，长期更新（大概）</p>
-<span id="more"></span>
-
-<h2 id="🤔-想上线的功能"><a href="#🤔-想上线的功能" class="headerlink" title="🤔 想上线的功能"></a>🤔 想上线的功能</h2><table>
-<thead>
-<tr>
-<th>加入日期</th>
-<th>任务</th>
-<th>紧急</th>
-<th>必要</th>
-<th>目前状态</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>22-10-22</td>
-<td>文章漫游</td>
-<td>❌</td>
-<td>❌</td>
-<td>要修改权限</td>
-</tr>
-<tr>
-<td>-</td>
-<td>顶栏导航</td>
-<td>❌</td>
-<td>⭕</td>
-<td>-</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="🤗-以下是更新日志"><a href="#🤗-以下是更新日志" class="headerlink" title="🤗 以下是更新日志"></a>🤗 以下是更新日志</h2><h3 id="2022-10-22"><a href="#2022-10-22" class="headerlink" title="2022-10-22"></a>2022-10-22</h3><ul>
-<li><a href="https://github.com/D0n9X1n/hexo-blog-encrypt">隐私设置 hexo-blog-encrypt</a><ul>
-<li>之前装了之后发现很丑，需要改CSS，卸了</li>
-<li>又装了回来，因为发现有些主题还挺好看的，将就用吧</li>
-</ul>
-</li>
-</ul>
-<h3 id="2022-10-21"><a href="#2022-10-21" class="headerlink" title="2022-10-21"></a>2022-10-21</h3><ul>
-<li><a href="https://github.com/hexojs/hexo-generator-feed">rss订阅 hexo-generator-feed</a><ul>
-<li>订阅只需要在主页域名后加 <code>/atom.xml</code> 即可</li>
-</ul>
-</li>
-</ul>
-<h3 id="2022-10-17"><a href="#2022-10-17" class="headerlink" title="2022-10-17"></a>2022-10-17</h3><ul>
-<li><a href="https://github.com/Drew233/hexo-generator-random">文章漫游 hexo-generator-random</a><ul>
-<li>会随机到一些不想被别人看到的页面，安全性担忧</li>
-<li>后续可能会采用不用插件的方案</li>
-</ul>
-</li>
-<li><a href="https://github.com/rozbo/hexo-abbrlink">短链接 hexo-abbrlink</a></li>
-<li><a href="https://developer.spotify.com/documentation/embeds/guides/creating-an-embed/">文内音乐播放 embed track</a></li>
-</ul>
-<h3 id="2022-10-16"><a href="#2022-10-16" class="headerlink" title="2022-10-16"></a>2022-10-16</h3><ul>
-<li><a href="https://theme-cards.ichr.me/pages/">归档功能 archives</a></li>
-<li>更新了一下CSS代码（子分类缩进）</li>
-</ul>
-<h3 id="2022-10-15"><a href="#2022-10-15" class="headerlink" title="2022-10-15"></a>2022-10-15</h3><ul>
-<li>创建更新日志</li>
-</ul>
-<h3 id="2022-10-07"><a href="#2022-10-07" class="headerlink" title="2022-10-07"></a>2022-10-07</h3><ul>
-<li><a href="http://this-lib-cannot-afford-other-names.xyz/posts/genesis.html">创建博客</a><ul>
-<li>初步配置有<ul>
-<li>站内搜索</li>
-<li>匿名评论</li>
-<li>躲避站外搜索</li>
-<li>置顶文章</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>🍩 AboutLib | 博客纪年</category>
-      </categories>
   </entry>
   <entry>
     <title>在太平洋衝浪要做好防溺水措施</title>
@@ -396,44 +411,74 @@
       </categories>
   </entry>
   <entry>
-    <title>一些摘录</title>
-    <url>/posts/initium_221022.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><span id="more"></span>
+    <title>那個下午我在舊居燒信</title>
+    <url>/posts/burning_letters.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0PYOuxa9oUTm8LlkagkxYE?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 
 <blockquote>
-<p>最早提出迷因一词的，是英国演化生物学家、动物行为学家理查・道金斯（Clinton Richard Dawkins）。他在《自私的基因》一书中指，迷因是文化中被认为经由非遗传方式、尤其是透过模仿来传递下去的元素。《牛津英语词典》也收录了迷因一词，并使用了上述定义。道金斯进一步说明，迷因可以透过模仿、复制，将想法、观念、行为或技能从一个人的大脑移转到另一个人的脑中。</p>
-<p>英国心理学者苏珊・布拉克莫（Susan Blackmore）延续道金斯的观点，在《迷因》一书中指，网际网络让迷因快速发展，尤其以“高保真度”、“持久度”让迷因不断复制、传递。迷因也从产品复制到指令复制。苏珊・布拉克莫举例，厨师能复制一款浓汤，但为了让浓汤更有效地传递出去，就要复制食谱，有清楚的指令，便能够让这款浓汤的味道散布出去。她认为，一段字词、一个故事、一套规矩、一首歌曲都可以是迷因，最经典的案例大概就是全世界都理解的“生日快乐歌”。</p>
-<p>[…] 政治大学传播学院特聘教授林日璇撰文《台湾网路社群的迷因文化特色是？元宇宙概念中那些迷因最红？》，提到传播学理论中的“社会资讯处理程序理论”（Social Information Processing Theory, Walther），网民以匿名、半匿名方式互动，文字容易造成误解，进而引发笔战，若是增加表情符号，则能加强传递想法。而迷因、梗图的出现，更能补充文字的不足。甚至发展出社群中独特的梗，作为团体内认同的文化。<a href="https://theinitium.com/article/20220714-taiwan-meme-1/">1</a></p>
+<p>茫茫如水一般日子淌過<br>如風的呼吸記憶於我</p>
 </blockquote>
-<blockquote>
-<p>地狱梗指将笑点建立在特定事件或族群上，并带有浓厚的嘲讽、冒犯、挑战道德底线的意味。一般来说，地狱梗就是让观者感受到违和、不协调而产生幽默感。不过，地狱梗的接受度也随着心理距离而有所不同。心理学家 Peter McGraw 与 Caleb Warren提出“良性冲突论”，笑话要落在有点痛苦却又安全愉悦的良性冲突区间，才会让观者愉悦，笑话与观者的心理距离太接近则会成为威胁、降低幽默的感受，太远又会因为冲突降低而无法理解笑点。</p>
-<p>打着开玩笑大旗的地狱梗界线到底该如何界定，幽默、不道德的界线又到底怎么区分？在台湾大学外文系教授黄宗慧、东华大学华文系教授黄宗洁姊妹合著的书籍《就算牠没有脸》中指出，佛洛伊德曾说：“每个笑话都会募集自己的群众，而为同一个笑话而笑是心理一致性的明显证据”。黄宗慧强调，就如同其他的地狱梗玩笑，看似无关紧要的玩笑话，随着笑话的传播，歧视的态度一再被合理化。开玩笑的人主张豁免权，不应受道德批判，被嘲讽的对象若介意了则显得“不幽默”，造成二度伤害，严肃议题若成了玩笑，也许就很难再回到主题本身。</p>
-<p>黄宗洁则更进一步指出，同时保有幽默感与道德敏感度并不冲突，一位谴责玩笑未必能让彼此理解，如果人愿意时刻提醒自己保有敏感度，“每个人都可以画出谑而不虐的那条线”。<a href="https://theinitium.com/article/20220714-taiwan-meme-1/">1</a></p>
-</blockquote>
-<hr>
-<blockquote>
-<p>当然，阅读量得到满足后，“阅读收获”的理解也是因人而异、因时代而异的。如果说上世纪80年代，书店每一个排队的人都曾强烈希望改变命运。那么21世纪迈进信息社会， 以价格换算阅读量的斤斤计较背后，将阅读体验理解为“不可计量的收获”的背后，是罗振宇、吴晓波、樊登等中国商人用泛知识类App（如得到、分答、樊登读书），打造的“知识经济”盛宴，推崇智识崇拜，寄托了关于新奇知识、自我探索、世界认识，财富最美好的梦想。<a href="https://theinitium.com/article/20220606-mainland-kindle/">2</a></p>
-</blockquote>
-<hr>
-<blockquote>
-<p>没想到的是，自由度的收紧比我以为的快太多太多，短短一年时间，我已经不得不学会内在地消化那些愤怒，或是用极委婉的方式才敢尝试着做一些表达。在不能言说的时候，我自救的方式是尽可能与更多同温层产生联结，而mla让我看到联结的起点在何处——当言说空间日渐萎缩，我们可以在生活的细枝末节中收获力量。在春天乱搭巴士，在动物园散步，或是在麦记独坐一夜，我们可以在小世界给自己有限的自由，在低空的飞行中学会关心自己和自己身边最平凡的人，借共情的能力打开自己的边界，用敏锐的私人体验反驳宏大话语强加的标签，以及心里一遍又一遍告诉自己：“在炎热与抑郁的夏天，不要停止写诗”。<a href="https://theinitium.com/article/20211016-note-readers-voices-7-mla/">3</a></p>
-</blockquote>
-<hr>
-<blockquote>
-<p>MLA 那幽默感Hongkongness，从名字就开始。非香港学校成长难以一click 即中（学生时代开玩笑说平胸的女生是“飞机场”，但这个in joke似从没被公开认可为组合名称的由来，只能各自领会）。甚至乎，MLA作品中很大部份呈现的，就是这种in joke，懂的会懂，不懂的，要解释就多隔了一重。这种语带相关，要求一份对香港通俗文化的基本理解，贯穿了整套作品。<a href="https://theinitium.com/article/20211002-culture-my-little-airport-these-years/">4</a></p>
-</blockquote>
-<blockquote>
-<p>没有声嘶力竭，现场演出，只静静站在台上，娓娓唱出，不会跟随大队哥哥姐姐去综艺节目飊高音，这就足够贯彻另类我行我素，保留了一定程度的独立精神。</p>
-<p>扩音器传来，叫人随歌起舞的噪音天天在响，这个时代的香港，得保持自己有亲的语言，以及冷眼的幽默感。当主流将逐渐被主旋律取缔，另类乐风与游击演出的意义将更重要。从演出到作品，歌词唱著的无聊和磊落站于台上不摆动的姿态，就是这城市赖以传承及唱不完的故事。<a href="https://theinitium.com/article/20211002-culture-my-little-airport-these-years/">4</a></p>
-</blockquote>
+<span id="more"></span>
+
+<p>那个下午我在旧居烧信，细数着自己十九岁之后的四年人生。我常常在想，在这段时间里，我是否有鲜活、自由地活过。</p>
+<p>在20年之前，也就是疫情前时代，我享受过半年无忧无虑的大学生活。那段安逸的时光里，我除了上课什么都不用想。在此之后，我的生命飞速地在居家、内卷、封校等枯燥乏味的事情中度过。</p>
+<p>转眼间，我快要毕业了。我如愿以偿地被理想的学校录取，可是我发现我的四年实在无聊。</p>
+<p>我不能说在这四年里，我没有好好地享受过。我只觉得，自己一直像一只来到陌生环境中受惊吓的动物，我的应激体现在我沉迷于图书馆-饭堂-宿舍的三点一线之中，除此之外，我独来独往，也鲜少将时间大量地花费在学习（无论是专业学习还是自己在此之外的学习）上。我放弃了自己大多数的兴趣。</p>
+<p>于是，我虽然在无意义的竞争中倔强地保持了自己的本性，但是我某种程度上成为了一个无个性无兴趣的人。我喜欢画画，但是自大学之后，我鲜少提起画笔；我喜欢看小说，但是似乎大二以来，我也没看多少。</p>
+<p>我生命的火焰本应在此时熊熊燃烧，然而，我并不觉得自己是个非常有生命力的人，也不觉得自己此时此刻是一个被理想驱动的人。我不断逃避，但是鲜少奔赴，仿佛我的前方已经失去可以为之奔赴的目标。我羡慕着朋友自由生长的模样，而我的生长并不自由，它不过是时间流逝的必然结果。</p>
+<p>不去逃避，去面对，去经历。这便是接下来我能做的事情。</p>
 ]]></content>
       <categories>
-        <category>📰 Excerpts | 它山之石</category>
-        <category>👁‍🗨 TheInitium</category>
+        <category>🍵 AboutMe | 生活碎片</category>
       </categories>
       <tags>
-        <tag>端媒</tag>
-        <tag>MLA</tag>
+        <tag>達明</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>唉酱 修理笔记</title>
+    <url>/posts/ai_bot_errors.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>慢慢修吧，真烦。</p>
+<span id="more"></span>
+
+<h2 id="node-js-中文乱码"><a href="#node-js-中文乱码" class="headerlink" title="node.js 中文乱码"></a>node.js 中文乱码</h2><p><code>.py</code> 代码加上一行：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> io</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line">sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = <span class="string">&#x27;utf-8&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="安装模块报错"><a href="#安装模块报错" class="headerlink" title="安装模块报错"></a>安装模块报错</h2><p><code>SyntaxError: Cannot use import statement outside a module </code></p>
+<p><code>package.json</code> 生成后，在代码里面加一行。否则后续 <code>bot.js</code> 会报错 <code>SyntaxError: Cannot use import statement outside a module </code></p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;module&quot;</span><span class="punctuation">,</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="端口连接报错"><a href="#端口连接报错" class="headerlink" title="端口连接报错"></a>端口连接报错</h2><p><code>Error: Client network socket disconnected before secure TLS connection was established</code></p>
+<h3 id="原因：域名被墙"><a href="#原因：域名被墙" class="headerlink" title="原因：域名被墙"></a>原因：域名被墙</h3><figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">node:events:<span class="number">491</span></span><br><span class="line">      <span class="keyword">throw</span> er; // Unhandled <span class="string">&#x27;error&#x27;</span> event</span><br><span class="line">      ^</span><br><span class="line"></span><br><span class="line">Error: connect ETIMEDOUT <span class="number">118.107</span>.<span class="number">180.216</span>:<span class="number">443</span></span><br></pre></td></tr></table></figure>
+
+
+<p>在这一情况，我推荐的解决方法是：</p>
+<ul>
+<li>换个不会被 404 且 允许搭建机器人的实例</li>
+<li><code>api-url</code> 改为实例相应的镜像域名</li>
+<li><del>肉身移民</del></li>
+</ul>
+<h3 id="原因：无法解释"><a href="#原因：无法解释" class="headerlink" title="原因：无法解释"></a>原因：无法解释</h3><p>这一情况出现于每一次，我重新打开 VS Code 之后。我不知道如何解释、解决这个问题，属于是已经绝望的情况了。</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 报错显示如下：</span></span><br><span class="line">node:events:<span class="number">491</span></span><br><span class="line">      <span class="keyword">throw</span> er; // Unhandled <span class="string">&#x27;error&#x27;</span> event</span><br><span class="line">      ^</span><br><span class="line"></span><br><span class="line">Error: Client network socket disconnected before secure TLS connection was established</span><br></pre></td></tr></table></figure>
+
+<p>发生在重新打开文件运行 <code>node bot.js</code> 时，首先排查 <strong>端口占用</strong> 情况。这一情况一般发生在80端口。</p>
+<p>打开 <code>cmd</code> ，输入：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">netstat <span class="literal">-ano</span>|findstr <span class="string">&quot;80&quot;</span> </span><br><span class="line">	<span class="comment"># 假设对应PID为5136</span></span><br><span class="line">taskkill <span class="literal">-PID</span> <span class="number">5136</span> <span class="operator">-F</span></span><br><span class="line">	<span class="comment"># 关闭，如果关不掉，打开任务管理器关闭</span></span><br></pre></td></tr></table></figure>
+
+<p>占用你端口的可能是微信、坚果云等等，或者其它你并不认识的进程，都关了。如果关了一个端口之后没有变化，就继续关其他跟“80”相关的端口，直到代码能正常运行。</p>
+]]></content>
+      <categories>
+        <category>📜 LearningNotes | 学习日常</category>
+        <category>🐘 Mastodon</category>
+      </categories>
+      <tags>
+        <tag>Mastodon</tag>
+        <tag>Bot</tag>
+        <tag>腦洞</tag>
+        <tag>唉酱</tag>
       </tags>
   </entry>
   <entry>
@@ -442,13 +487,8 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
   <entry>
-    <title>Kindreds</title>
-    <url>/links/index.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-  </entry>
-  <entry>
-    <title>Archives</title>
-    <url>/archives/index.html</url>
+    <title>Resources</title>
+    <url>/resources/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
   <entry>
@@ -457,18 +497,23 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
   <entry>
-    <title>Tags</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-  </entry>
-  <entry>
     <title>Search</title>
     <url>/search/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
   <entry>
-    <title>Resources</title>
-    <url>/resources/index.html</url>
+    <title>Kindreds</title>
+    <url>/links/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
+  <entry>
+    <title>Archives</title>
+    <url>/archives/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
 </search>
