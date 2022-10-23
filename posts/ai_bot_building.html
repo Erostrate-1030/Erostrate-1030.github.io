@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+
+    
+
+    <!-- 渲染优化 -->
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="HandheldFriendly" content="True" >
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--icon-->
+
+    
+    
+    
+    
+    
+
+
+    <!-- meta -->
+
+
+<title>唉酱 搭建日志 | Erostrate&#39;s Library</title>
+
+
+    <meta name="keywords" content="造物, Mastodon, Bot, 腦洞, 唉酱">
+
+
+
+
+    <!-- OpenGraph -->
+ 
+    <meta name="description" content="👾：突然想到了一个绝妙的bot想法    ：随机产出“唉，…”语句    ：每天唉个2-3条    ：bot名叫人类🐰：唉  我cp做爱太多">
+<meta property="og:type" content="article">
+<meta property="og:title" content="唉酱 搭建日志">
+<meta property="og:url" content="http://this-lib-cannot-afford-other-names.xyz/posts/ai_bot_building.html">
+<meta property="og:site_name" content="Erostrate&#39;s Library">
+<meta property="og:description" content="👾：突然想到了一个绝妙的bot想法    ：随机产出“唉，…”语句    ：每天唉个2-3条    ：bot名叫人类🐰：唉  我cp做爱太多">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-10-23T09:18:38.502Z">
+<meta property="article:modified_time" content="2022-10-23T09:21:59.684Z">
+<meta property="article:author" content="Erostrate">
+<meta property="article:tag" content="造物">
+<meta property="article:tag" content="Mastodon">
+<meta property="article:tag" content="Bot">
+<meta property="article:tag" content="腦洞">
+<meta property="article:tag" content="唉酱">
+<meta name="twitter:card" content="summary_large_image">
+
+
+    
+<link rel="stylesheet" href="/css/style/main.css">
+ 
+
+    
+    
+        <link rel="stylesheet" id="hl-default-theme" href="/css/highlight/default.css" media="none" onload="this.media='all'">
+        
+    
+
+    
+    
+
+    
+
+     
+
+    <!-- custom head -->
+
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Erostrate's Library" type="application/atom+xml">
+</head>
+
+    <body>
+        <div id="app" tabindex="-1">
+            <header class="header">
+    <div class="header__left">
+        <a href="/" class="button">
+            <span class="logo__text">👾</span>
+        </a>
+    </div>
+    <div class="header__right">
+        
+            <div class="navbar__menus">
+                
+                    <a href="/tags/" class="navbar-menu button">🧠 Tags</a>
+                
+                    <a href="/categories/" class="navbar-menu button">🍇 Categories</a>
+                
+                    <a href="/archives/" class="navbar-menu button">🔮 Archives</a>
+                
+                    <a href="/links/" class="navbar-menu button">💜 Kindreds</a>
+                
+                    <a target="_blank" rel="noopener" href="https://box.n3ko.co/_/to_erostrate" class="navbar-menu button">🤍 Comments</a>
+                
+            </div>
+        
+        
+        
+    <a href="/search/" id="btn-search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="24" height="24" fill="currentColor" stroke="currentColor" stroke-width="32"><path d="M192 448c0-141.152 114.848-256 256-256s256 114.848 256 256-114.848 256-256 256-256-114.848-256-256z m710.624 409.376l-206.88-206.88A318.784 318.784 0 0 0 768 448c0-176.736-143.264-320-320-320S128 271.264 128 448s143.264 320 320 320a318.784 318.784 0 0 0 202.496-72.256l206.88 206.88 45.248-45.248z"></path></svg>
+    </a>
+
+
+        
+        
+
+        
+            <a class="dropdown-icon button" id="btn-dropdown" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width='24' height='24' fill="none" stroke="currentColor" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"><path fill="currentColor" d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314c-0.41,0-0.743,0.333-0.743,0.743C2.571,4.467,2.904,4.8,3.314,4.8z M16.686,15.2H3.314c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,15.2,16.686,15.2z M16.686,9.257H3.314c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z"></path></svg></a>
+            <div class="dropdown-menus" id="dropdown-menus">
+                
+                    <a href="/tags/" class="dropdown-menu button">🧠 Tags</a>
+                
+                    <a href="/categories/" class="dropdown-menu button">🍇 Categories</a>
+                
+                    <a href="/archives/" class="dropdown-menu button">🔮 Archives</a>
+                
+                    <a href="/links/" class="dropdown-menu button">💜 Kindreds</a>
+                
+                    <a target="_blank" rel="noopener" href="https://box.n3ko.co/_/to_erostrate" class="dropdown-menu button">🤍 Comments</a>
+                
+            </div>
+        
+    </div>
+</header>
+
+
+            <main class="main">
+    
+
+<div class="post-title">
+    <h1 class="post-title__text">
+        唉酱 搭建日志
+    </h1>
+    <div class="post-title__meta">
+        <a href="/archives/2022/10/" class="post-meta__date button">2022-10-23</a>
+        
+    <span class="separate-dot"></span><a href="/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/" class="button">📜 LearningNotes | 学习日常</a>
+
+    <span class="separate-dot"></span><a href="/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/%F0%9F%90%98-Mastodon/" class="button">🐘 Mastodon</a>
+
+ 
+        
+    
+    
+
+
+ 
+
+ 
+    </div>
+</div>
+
+
+    <aside class="post-side">
+        <div class="post-side__toc">
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%90%AD%E5%BB%BA"><span class="toc-number">2.</span> <span class="toc-text">搭建</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Setting-up-a-Mastodon-Bot-2"><span class="toc-number">2.1.</span> <span class="toc-text">Setting up a Mastodon Bot 2</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#bot-js"><span class="toc-number">2.1.1.</span> <span class="toc-text">bot.js</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#First-toot"><span class="toc-number">2.1.2.</span> <span class="toc-text">First toot</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Environment-Variables-in-Node-with-dotenv-3"><span class="toc-number">2.2.</span> <span class="toc-text">Environment Variables in Node with dotenv 3</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#dotenv"><span class="toc-number">2.2.1.</span> <span class="toc-text">dotenv</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#bot-js-1"><span class="toc-number">2.2.2.</span> <span class="toc-text">bot.js</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#gitignore"><span class="toc-number">2.2.3.</span> <span class="toc-text">.gitignore</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Posting-with-setInterval-4"><span class="toc-number">2.3.</span> <span class="toc-text">Posting with setInterval() 4</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#bot-js-2"><span class="toc-number">2.3.1.</span> <span class="toc-text">bot.js</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#status"><span class="toc-number">2.3.2.</span> <span class="toc-text">status:</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#setInterval-function-interval-in-millisec"><span class="toc-number">2.3.3.</span> <span class="toc-text">setInterval(function, interval_in_millisec)</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Tree-Bot-8"><span class="toc-number">2.4.</span> <span class="toc-text">Tree Bot 8</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%9A%E6%97%B6%E5%8F%91%E9%80%81"><span class="toc-number">2.4.1.</span> <span class="toc-text">定时发送</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8D%B3%E6%97%B6%E5%BA%94%E7%AD%94"><span class="toc-number">2.4.2.</span> <span class="toc-text">即时应答</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2"><span class="toc-number">2.4.3.</span> <span class="toc-text">服务器部署</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9"><span class="toc-number">3.</span> <span class="toc-text">修改</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E8%80%83"><span class="toc-number">4.</span> <span class="toc-text">参考</span></a></li></ol>
+        </div>
+    </aside>
+    <a class="btn-toc button" id="btn-toc" tabindex="0">
+        <svg viewBox="0 0 1024 1024" width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+            <path d="M128 256h64V192H128zM320 256h576V192H320zM128 544h64v-64H128zM320 544h576v-64H320zM128 832h64v-64H128zM320 832h576v-64H320z" fill="currentColor"></path>
+        </svg>
+    </a>
+    <div class="toc-menus" id="toc-menus">
+        <div class="toc-title">Article Directory</div>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%90%AD%E5%BB%BA"><span class="toc-number">2.</span> <span class="toc-text">搭建</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Setting-up-a-Mastodon-Bot-2"><span class="toc-number">2.1.</span> <span class="toc-text">Setting up a Mastodon Bot 2</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#bot-js"><span class="toc-number">2.1.1.</span> <span class="toc-text">bot.js</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#First-toot"><span class="toc-number">2.1.2.</span> <span class="toc-text">First toot</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Environment-Variables-in-Node-with-dotenv-3"><span class="toc-number">2.2.</span> <span class="toc-text">Environment Variables in Node with dotenv 3</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#dotenv"><span class="toc-number">2.2.1.</span> <span class="toc-text">dotenv</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#bot-js-1"><span class="toc-number">2.2.2.</span> <span class="toc-text">bot.js</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#gitignore"><span class="toc-number">2.2.3.</span> <span class="toc-text">.gitignore</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Posting-with-setInterval-4"><span class="toc-number">2.3.</span> <span class="toc-text">Posting with setInterval() 4</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#bot-js-2"><span class="toc-number">2.3.1.</span> <span class="toc-text">bot.js</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#status"><span class="toc-number">2.3.2.</span> <span class="toc-text">status:</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#setInterval-function-interval-in-millisec"><span class="toc-number">2.3.3.</span> <span class="toc-text">setInterval(function, interval_in_millisec)</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Tree-Bot-8"><span class="toc-number">2.4.</span> <span class="toc-text">Tree Bot 8</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%9A%E6%97%B6%E5%8F%91%E9%80%81"><span class="toc-number">2.4.1.</span> <span class="toc-text">定时发送</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8D%B3%E6%97%B6%E5%BA%94%E7%AD%94"><span class="toc-number">2.4.2.</span> <span class="toc-text">即时应答</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2"><span class="toc-number">2.4.3.</span> <span class="toc-text">服务器部署</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9"><span class="toc-number">3.</span> <span class="toc-text">修改</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E8%80%83"><span class="toc-number">4.</span> <span class="toc-text">参考</span></a></li></ol>
+    </div>
+
+
+<article class="post post__with-toc content-card">
+    <div class="post__header">
+    <div class="post__expire" id="post-expired-notify">
+        <p>
+            This article was last updated on &lt;span id=&#34;expire-date&#34;&gt;&lt;/span&gt; days ago, the information described in the article may be outdated.
+        </p>
+    </div>
+    <script>
+        (() => {
+            var update = Date.parse("2022-10-23"),
+                date = new Date(),
+                now = date.getTime(),
+                expire = now - update,
+                expire_days = Math.floor(expire/(24*3600*1000));
+            if (expire_days >= 120) {
+                document.querySelectorAll('#expire-date')[0].innerHTML = expire_days;
+                document.querySelectorAll('#post-expired-notify')[0].style.display = 'block';
+            }
+        })();
+    </script>
+</div>
+    <div class="post__content">
+        <blockquote>
+<p>👾：突然想到了一个绝妙的bot想法<br>    ：随机产出“唉，…”语句<br>    ：每天唉个2-3条<br>    ：bot名叫人类<br>🐰：唉  我cp做爱太多</p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>如上所述，半夜睡觉之前突然想到可以这样做。<del>借这个Bot，我们一起来思考，(非)仿生长毛象机器人会不会像人类一样有诸多烦恼。</del></p>
+<p>这个机器人应该会随着我脑洞的扩大持续更新，所以在创建这篇文章的同时，我创建了相应的更新日志。其他后续功能（<del>以及画饼</del>）会更新在更新日志中。</p>
+<p>本篇文章中，所有资料的参考来源都进行了标注，如果有搭建需要的朋友可自行查阅。</p>
+<blockquote class="blockquote-note blockquote-note__info"><div class="blockquote-note__header"><div class="blockquote-note__icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></div>目前基本搭建需求</div><div class="blockquote-note__content"><ul>
+<li>每天定时产出随机语句（“唉，” + 任意内容）</li>
+<li>根据用户投稿，语料库可更新</li>
+</ul>
+</div></blockquote>
+
+<hr>
+<h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><h3 id="Setting-up-a-Mastodon-Bot-2"><a href="#Setting-up-a-Mastodon-Bot-2" class="headerlink" title="Setting up a Mastodon Bot 2"></a>Setting up a Mastodon Bot <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=pY4b18JGCKE&list=PLRqwX-V7Uu6byiVX7_Z1rclitVhMBmNFQ&index=2">2</a></h3><h4 id="bot-js"><a href="#bot-js" class="headerlink" title="bot.js"></a><code>bot.js</code></h4><p>并不是所有的实例都欢迎机器人的注册。这里我选择了 <a target="_blank" rel="noopener" href="https://wxw.moe/">呜呜站</a> 这个实例搭建我的机器人。第一步我们需要为机器人注册一个账号，在注册帐号之后，实例管理员需要一定时间审核我们的请求。</p>
+<p>注册之后填写自己的个人资料，在资料页面<strong>必须</strong>勾选 <code>This is a bot accout</code> 选项。</p>
+<p>在账号主页面，找到 <code>Edit profile - Development - New application</code> 。保存设置后，重新点入设置好的 <code>application</code>, 获取账号密钥（不要跟任何人分享 ❗）</p>
+<p>在Bot账号对应的代码文件夹打开 cmd </p>
+<ul>
+<li>输入 <code>npm init</code> ，根据相关指引完成初步设置<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">Press C at any time to quit.</span><br><span class="line">package name: (mastodon<span class="literal">-human-bot</span>)</span><br><span class="line">version: (<span class="number">1.0</span>.<span class="number">0</span>)</span><br><span class="line">description: building bot</span><br><span class="line">entry point: (index.js) bot.js</span><br><span class="line">test command:</span><br><span class="line">git repository:</span><br><span class="line">keywords: bot, mastodon</span><br><span class="line">author: Erostrate <span class="comment">#这里是我的名字</span></span><br><span class="line">license: (ISC) MIT</span><br><span class="line">About to <span class="built_in">write</span> to D:\mastodon<span class="literal">-human-bot</span>\package.json: </span><br></pre></td></tr></table></figure></li>
+<li>输入 <code>code</code> ，打开 VS Code 界面，可以发现文件夹里多一个名为 <code>package.json</code> 的文件</li>
+<li>在 <code>package.json</code> 同级目录下，新建 <code>bot.js</code></li>
+</ul>
+<h4 id="First-toot"><a href="#First-toot" class="headerlink" title="First toot"></a>First toot</h4><p>在 <code>bot.js</code> 中，我们首先要做的是连接到 Mastodon 的端口。我们使用的是 <a target="_blank" rel="noopener" href="https://github.com/vanita5/mastodon-api">mastodon-api</a>.<br>安装  <a target="_blank" rel="noopener" href="https://github.com/vanita5/mastodon-api">mastodon-api</a></p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install <span class="literal">--save</span> mastodon<span class="literal">-api</span></span><br></pre></td></tr></table></figure>
+
+<p><code>bot.js</code> 中的代码参考：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="title class_">Mastodon</span> = <span class="built_in">require</span>(<span class="string">&#x27;mastodon-api&#x27;</span>);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Mastodon Bot starting...&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="title class_">Mastodon</span> <span class="keyword">from</span> <span class="string">&#x27;mastodon-api&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> M = <span class="keyword">new</span> <span class="title class_">Mastodon</span>(&#123;</span><br><span class="line">  <span class="attr">client_key</span>: <span class="string">&#x27;...&#x27;</span>,</span><br><span class="line">  <span class="attr">client_secret</span>: <span class="string">&#x27;...&#x27;</span>,</span><br><span class="line">  <span class="attr">access_token</span>: <span class="string">&#x27;...&#x27;</span>,</span><br><span class="line">  <span class="attr">timeout_ms</span>: <span class="number">60</span> * <span class="number">1000</span>,  <span class="comment">// optional HTTP request timeout to apply to all requests.</span></span><br><span class="line">  <span class="attr">api_url</span>: <span class="string">&#x27;https://botsin.space//api/v1/&#x27;</span>, <span class="comment">// optional, defaults to https://mastodon.social/api/v1/</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>There are three core ways to engage with the Mastodon API</p>
+<ul>
+<li><code>get</code></li>
+<li><code>post</code></li>
+<li><code>streaming</code></li>
+</ul>
+</blockquote>
+<p>这里主要会用到 <code>post</code>，因此我们查看它的 <a target="_blank" rel="noopener" href="https://github.com/McKael/mastodon-documentation/blob/master/Using-the-API/API.md">说明</a> </p>
+<ul>
+<li>我们可以看到在 <code>post</code> 中，我们的代码格式是 <code>M.post(path, [params], callback)</code> </li>
+<li>在 <code>[params]</code> 处，根据说明，可以有 <code>status</code> 等多项元素</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Mastodon Bot starting...&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="title class_">Mastodon</span> <span class="keyword">from</span> <span class="string">&#x27;mastodon-api&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> M = <span class="keyword">new</span> <span class="title class_">Mastodon</span>(&#123;</span><br><span class="line">  <span class="attr">client_key</span>: <span class="string">&#x27;...&#x27;</span>,</span><br><span class="line">  <span class="attr">client_secret</span>: <span class="string">&#x27;...&#x27;</span>,</span><br><span class="line">  <span class="attr">access_token</span>: <span class="string">&#x27;...&#x27;</span>,</span><br><span class="line">  <span class="attr">timeout_ms</span>: <span class="number">60</span> * <span class="number">1000</span>,  </span><br><span class="line">  <span class="comment">// optional HTTP request timeout to apply to all requests.</span></span><br><span class="line">  <span class="attr">api_url</span>: <span class="string">&#x27;https://wxw.ooo//api/v1/&#x27;</span>, </span><br><span class="line">  <span class="comment">// optional, defaults to https://mastodon.social/api/v1/</span></span><br><span class="line">  <span class="comment">// 推荐选择免翻墙的实例或者它的镜像</span></span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> params = &#123;</span><br><span class="line">    <span class="attr">status</span>: <span class="string">&quot;唉。&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">M.<span class="title function_">post</span>(<span class="string">&quot;statuses&quot;</span>, params, <span class="function">(<span class="params">error, data</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (error) &#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">error</span>(error);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(data);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<p>完成上述代码，在终端运行 <code>node bot.js</code>，便可看到机器人发表了第一条嘟文。</p>
+<h3 id="Environment-Variables-in-Node-with-dotenv-3"><a href="#Environment-Variables-in-Node-with-dotenv-3" class="headerlink" title="Environment Variables in Node with dotenv 3"></a>Environment Variables in Node with dotenv <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=pY4b18JGCKE&list=PLRqwX-V7Uu6byiVX7_Z1rclitVhMBmNFQ&index=3">3</a></h3><h4 id="dotenv"><a href="#dotenv" class="headerlink" title="dotenv"></a><code>dotenv</code></h4><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install dotenv</span><br></pre></td></tr></table></figure>
+
+<p><code>dotenv</code> 可以帮助我们为一个项目创建环境变量。在这里可以用于隐藏密钥。</p>
+<p>如果运行<code>node bot.js</code> 报错 <code>SyntaxError: Cannot use import statement outside a module</code>，解决方法见<a href="http://this-lib-cannot-afford-other-names.xyz/posts/ai_bot_errors.html">修理日记</a>。</p>
+<p>新建 <code>.env</code> 文件，在其中输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">AUTH_TOKEN = ...</span><br><span class="line">CLIENT_SECRET = ...</span><br><span class="line">CLIENT_KEY = ...</span><br></pre></td></tr></table></figure>
+
+<h4 id="bot-js-1"><a href="#bot-js-1" class="headerlink" title="bot.js"></a><code>bot.js</code></h4><p>打开 <code>bot.js</code> ，修改如下：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Mastodon Bot starting...&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="variable constant_">ENV</span> <span class="keyword">from</span> <span class="string">&quot;dotenv&quot;</span> <span class="comment">//加载dotenv</span></span><br><span class="line"><span class="variable constant_">ENV</span>.<span class="title function_">config</span>()</span><br><span class="line"><span class="keyword">import</span> <span class="title class_">Mastodon</span> <span class="keyword">from</span> <span class="string">&#x27;mastodon-api&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> M = <span class="keyword">new</span> <span class="title class_">Mastodon</span>(&#123;</span><br><span class="line">  <span class="attr">client_key</span>: process.<span class="property">env</span>.<span class="property">CLIENT_KEY</span>, <span class="comment">//使用.env中的信息，隐去上一个代码块中的相关信息</span></span><br><span class="line">  <span class="attr">client_secret</span>: process.<span class="property">env</span>.<span class="property">CLIENT_SECRET</span>,</span><br><span class="line">  <span class="attr">access_token</span>: process.<span class="property">env</span>.<span class="property">AUTH_TOKEN</span>,</span><br><span class="line">  <span class="attr">timeout_ms</span>: <span class="number">60</span> * <span class="number">1000</span>,  <span class="comment">// optional HTTP request timeout to apply to all requests.</span></span><br><span class="line">  <span class="attr">api_url</span>: <span class="string">&#x27;https://botsin.space//api/v1/&#x27;</span>, <span class="comment">// optional, defaults to https://mastodon.social/api/v1/</span></span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> params = &#123;</span><br><span class="line">    <span class="attr">status</span>: <span class="string">&quot;唉。&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">M.<span class="title function_">post</span>(<span class="string">&quot;statuses&quot;</span>, params, <span class="function">(<span class="params">error, data</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (error) &#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">error</span>(error);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(data);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<h4 id="gitignore"><a href="#gitignore" class="headerlink" title=".gitignore"></a><code>.gitignore</code></h4><p>与此同时，新建 <code>.gitignore</code> 文件，在其中键入 <code>.env</code>。这样做的目的是，后续Git 上传代码的时候，不会将密钥暴露。</p>
+<h3 id="Posting-with-setInterval-4"><a href="#Posting-with-setInterval-4" class="headerlink" title="Posting with setInterval() 4"></a>Posting with setInterval() <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=pY4b18JGCKE&list=PLRqwX-V7Uu6byiVX7_Z1rclitVhMBmNFQ&index=4">4</a></h3><p><code>setInterval()</code> 这个函数，顾名思义，就是让你的 Bot 定时做一些事。</p>
+<h4 id="bot-js-2"><a href="#bot-js-2" class="headerlink" title="bot.js"></a><code>bot.js</code></h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> fs <span class="keyword">from</span> <span class="string">&quot;fs&quot;</span></span><br><span class="line"></span><br><span class="line">M.<span class="title function_">post</span>(<span class="string">&quot;statuses&quot;</span>, params, <span class="function">(<span class="params">error, data</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (error) &#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">error</span>(error);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        fs.<span class="title function_">writeFileSync</span>(<span class="string">&#x27;data.json&#x27;</span>, <span class="title class_">JSON</span>.<span class="title function_">stringify</span>(data, <span class="literal">null</span>, <span class="number">2</span>); <span class="comment">// 加上这一行</span></span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(data);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<p>运行完毕后，同级目录下会多出 <code>data.json</code> 文件。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">M.<span class="title function_">post</span>(<span class="string">&quot;statuses&quot;</span>, params, <span class="function">(<span class="params">error, data</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (error) &#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">error</span>(error);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;ID: &#x27;</span> + data.<span class="property">id</span> + <span class="string">&#x27; and timestamp: &#x27;</span> + data.<span class="property">created_at</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<p>这一步的更改，使得每次成功发表嘟文之后，控制台返回发表嘟文的 <code>id</code> 和 <code>created_at</code> 信息。如果想返回其他信息可查询 <code>data.json</code> 文件中，每条嘟文会有的信息类型。</p>
+<h4 id="status"><a href="#status" class="headerlink" title="status:"></a><code>status:</code></h4><p>更改下面代码的 <code>status</code>，可以改变每次嘟文的内容。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> params = &#123;</span><br><span class="line">    <span class="attr">status</span>: <span class="string">&quot;唉。&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="setInterval-function-interval-in-millisec"><a href="#setInterval-function-interval-in-millisec" class="headerlink" title="setInterval(function, interval_in_millisec)"></a><code>setInterval(function, interval_in_millisec)</code></h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">toot_make_love</span>();</span><br><span class="line">	<span class="comment">//Defining a function to toot</span></span><br><span class="line"><span class="built_in">setInterval</span>(toot_make_love, <span class="number">24</span> * <span class="number">60</span> * <span class="number">60</span> * <span class="number">1000</span>); </span><br><span class="line">    <span class="comment">//millisec = sec * 1000</span></span><br><span class="line">    <span class="comment">//It means &quot;do the function every 60 seconds&quot;.</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">toot_make_love</span>(<span class="params"></span>)&#123;</span><br><span class="line"><span class="keyword">const</span> num = <span class="title class_">Math</span>.<span class="title function_">floor</span>(<span class="title class_">Math</span>.<span class="title function_">random</span>() * <span class="number">10</span>); </span><br><span class="line">    <span class="comment">//Returning a float between 0 and 1</span></span><br><span class="line"><span class="keyword">const</span> params = &#123;</span><br><span class="line">    <span class="attr">spoiler_text</span>: <span class="string">&quot;⚠ NSFW&quot;</span>,</span><br><span class="line">    <span class="attr">status</span>: <span class="string">&quot;唉，你cp今天做了 &quot;</span> + num + <span class="string">&quot; 次爱。&quot;</span></span><br><span class="line">&#125;</span><br><span class="line">	<span class="comment">//Defining the content of the toot</span></span><br><span class="line"></span><br><span class="line">M.<span class="title function_">post</span>(<span class="string">&quot;statuses&quot;</span>, params, <span class="function">(<span class="params">error, data</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (error) &#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">error</span>(error);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;ID: &#x27;</span> + data.<span class="property">id</span> + <span class="string">&#x27; and timestamp: &#x27;</span> + data.<span class="property">created_at</span>);</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(data.<span class="property">content</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<blockquote class="blockquote-note blockquote-note__info"><div class="blockquote-note__header"><div class="blockquote-note__icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></div>后续步骤</div><div class="blockquote-note__content"><p>后续步骤还有：</p>
+<ul>
+<li>Streaming API [5]<ul>
+<li><code>streaming</code> 可以帮助我们实时获取用户活动（类似于 <code>notification</code>）</li>
+<li>但是这一步我一开始就报错了，不会修。目前基本需求也暂时不用到这几个步骤，所以我跳过了。</li>
+</ul>
+</li>
+<li>Managing User Events [6]</li>
+<li>Replying to a Mention [7]</li>
+</ul>
+</div></blockquote>
+
+<h3 id="Tree-Bot-8"><a href="#Tree-Bot-8" class="headerlink" title="Tree Bot 8"></a>Tree Bot <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=pY4b18JGCKE&list=PLRqwX-V7Uu6byiVX7_Z1rclitVhMBmNFQ&index=11">8</a></h3><p>如果我们需要一个功能为定时产生、发送随机语句的bot，我们需要做的事情有：</p>
+<ul>
+<li>设置好运行相应功能的代码</li>
+<li>在 <code>bot.js</code> 中进行定时、上传、发嘟</li>
+</ul>
+<p>到这一步，你可能会不断地遇到 <code>443</code> 错误，这里我提供了我的<a href="http://this-lib-cannot-afford-other-names.xyz/posts/ai_bot_errors.html">修理日记</a>。如果你遇到了，不要气馁，坚持做下去总会有结果的！</p>
+<h4 id="定时发送"><a href="#定时发送" class="headerlink" title="定时发送"></a>定时发送</h4><p>这个功能在 <code>bot.js</code> 中的实现遵循以下思路：</p>
+<ul>
+<li>连接账号</li>
+<li>执行功能<ul>
+<li>获取相应功能的 .py</li>
+<li>通过 <code>setInterval()</code>  设置时间间隔</li>
+<li>上传 .py 的输出结果</li>
+<li>发送嘟嘟</li>
+</ul>
+</li>
+</ul>
+<p>我们借助 <code>child_process</code> 模块中的 <code>exec</code> 来连接执行功能的 .py 文件：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; exec &#125; <span class="keyword">from</span> <span class="string">&#x27;child_process&#x27;</span>;</span><br><span class="line"><span class="keyword">const</span> exec_promisify = util.<span class="title function_">promisify</span>(exec);</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">function</span> = <span class="string">&#x27;python ./function.py&#x27;</span>;</span><br></pre></td></tr></table></figure>
+
+<p>这一步，我们的需求是“通过 <code>bot.js</code> 在终端获取 <code>function.py</code> 的输出结果”，因此我们接着： </p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">    <span class="keyword">const</span> response = <span class="title function_">exec_promisify</span>(<span class="keyword">function</span>);</span><br><span class="line"><span class="comment">// 在终端执行 `function`</span></span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(response.<span class="property">stdout</span>);</span><br><span class="line">    <span class="comment">// 在终端呈现输出结果</span></span><br></pre></td></tr></table></figure>
+
+<p>输出结果如果是中文语句，可能会出现乱码情况，解决方法见<a href="http://this-lib-cannot-afford-other-names.xyz/posts/ai_bot_errors.html">修理日记</a>。</p>
+<p>到这里，我们基本上已经完成了机器人需要的部分，剩下要做的就是把内容整理在一起。我们可以把需要执行的功能视为一个函数（function），<strong>机器人做的就是不断地，在一定条件下，运行这个函数，同时把函数结果输出在时间轴上</strong>。因此，我们首先要做的是把功能封装到一个函数下。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">	<span class="keyword">async</span> <span class="keyword">function</span> <span class="title function_">toot_sigh</span>(<span class="params"></span>)&#123;</span><br><span class="line">    <span class="keyword">const</span> response = <span class="keyword">await</span> <span class="title function_">exec_promisify</span>(sigh);</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(response.<span class="property">stdout</span>);</span><br><span class="line">    <span class="comment">// Step 1: Exec processing (create a output string)</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">const</span> params = &#123;</span><br><span class="line">        <span class="attr">status</span>: response.<span class="property">stdout</span>,</span><br><span class="line">        <span class="attr">visibility</span>: <span class="string">&#x27;unlisted&#x27;</span></span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="comment">// Step 2: Upload (return and attach to the following toot)</span></span><br><span class="line">    <span class="comment">// 由于这里我只需要字符串，因此相比上传图片会更加简单。需要上传图片可参照视频代码。</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">const</span> final_response = <span class="keyword">await</span> M.<span class="title function_">post</span>(<span class="string">&#x27;statuses&#x27;</span>, params); </span><br><span class="line">    <span class="comment">// Step 3: Toot!</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> &#123;</span><br><span class="line">        <span class="attr">success</span>: <span class="literal">true</span></span><br><span class="line">    &#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>还记得我们之前的 <code>setInterval()</code> 吗？嗯，套上去。我们在上一个代码串的前面加上以下代码。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> sigh = <span class="string">&#x27;python ./sigh.py&#x27;</span>;</span><br><span class="line"><span class="comment">// 获取相应功能的 .py</span></span><br><span class="line"></span><br><span class="line"><span class="title function_">toot_sigh</span>()</span><br><span class="line">    .<span class="title function_">then</span>(<span class="function"><span class="params">response</span> =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(response))</span><br><span class="line">    .<span class="title function_">catch</span>(<span class="function"><span class="params">error</span> =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">error</span>(error));</span><br><span class="line"><span class="comment">// 定时开始之前先运行一次</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">setInterval</span>(</span><br><span class="line">    <span class="function">() =&gt;</span> &#123;</span><br><span class="line">        <span class="title function_">toot_sigh</span>()</span><br><span class="line">            .<span class="title function_">then</span>(<span class="function"><span class="params">response</span> =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(response))</span><br><span class="line">            .<span class="title function_">catch</span>(<span class="function"><span class="params">error</span> =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">error</span>(error));</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="comment">//10 * 1000</span></span><br><span class="line">    <span class="number">3</span> * <span class="number">60</span> * <span class="number">60</span> * <span class="number">1000</span></span><br><span class="line">    <span class="comment">// millisec = sec * 1000</span></span><br><span class="line">); </span><br><span class="line"><span class="comment">// 设置定时</span></span><br></pre></td></tr></table></figure>
+
+<p>这时，保存，运行 <code>node bot.js</code> ，理论上我们的机器人就开始嘟嘟嘟嘟嘟了。如果又遇到了 <code>443</code> 错误，请参照<a href="http://this-lib-cannot-afford-other-names.xyz/posts/ai_bot_errors.html">修理日记</a>解决。</p>
+<p>最后，如果机器人后续还会有别的功能，每个功能的代码也是类似的编写模式。具体案例可以参照 <a target="_blank" rel="noopener" href="https://github.com/TheTarr/mastodon_bot">操操</a> 的 <code>bot.js</code>.</p>
+<h4 id="即时应答"><a href="#即时应答" class="headerlink" title="即时应答"></a>即时应答</h4><ul>
+<li>待续</li>
+</ul>
+<h4 id="服务器部署"><a href="#服务器部署" class="headerlink" title="服务器部署"></a>服务器部署</h4><ul>
+<li>待续</li>
+</ul>
+<hr>
+<h2 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h2><ul>
+<li>缓慢更新</li>
+</ul>
+<hr>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2>
+    </div>
+     
+    <div class="post-footer__meta"><p>updated at 2022-10-23</p></div> 
+    <div class="post-entry__tags"><a href="/tags/%E9%80%A0%E7%89%A9/" class="post-tags__link button"># 造物</a><a href="/tags/Mastodon/" class="post-tags__link button"># Mastodon</a><a href="/tags/Bot/" class="post-tags__link button"># Bot</a><a href="/tags/%E8%85%A6%E6%B4%9E/" class="post-tags__link button"># 腦洞</a><a href="/tags/%E5%94%89%E9%85%B1/" class="post-tags__link button"># 唉酱</a></div> 
+</article>
+
+
+    <div class="nav">
+        <div class="nav__prev">
+            
+        </div>
+        <div class="nav__next">
+            
+                <a href="/posts/ai_bot_errors.html" class="nav__link">
+                    <div>
+                        <div class="nav__label">
+                            Next Post
+                        </div>
+                        <div class="nav__title">
+                            唉酱 修理笔记
+                        </div>
+                    </div>
+                    <div>
+                        <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M434.944 790.624l-45.248-45.248L623.04 512l-233.376-233.376 45.248-45.248L713.568 512z" fill="#808080"></path></svg>
+                    </div>
+                </a>
+            
+        </div>
+    </div>
+
+
+
+
+
+</main>
+
+            <footer class="footer">
+     
+    <a href="#" class="button" id="b2t" aria-label="Back to Top" title="Back to Top">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="32" height="32">
+            <path d="M233.376 722.752L278.624 768 512 534.624 745.376 768l45.248-45.248L512 444.128zM192 352h640V288H192z" fill="currentColor"></path>
+        </svg>
+    </a>
+
+    
+
+
+    
+     
+ 
+
+ 
+    
+    
+    <p>  </p>
+</footer>
+
+        </div>
+         
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+    
+ 
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.4.1/dist/jquery.fancybox.min.css">
+
+    
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.4.1/dist/jquery.fancybox.min.js"></script>
+
+    <script>
+        let lazyloadT = Boolean('false'),
+            auto_fancybox = Boolean('true')
+        if (auto_fancybox) {
+            $(".post__content").find('img').each(function () {
+                var element = document.createElement("a");
+                $(element).attr("data-fancybox", "gallery");
+                $(element).attr("href", $(this).attr("src"));
+                if (lazyloadT) {
+                    $(element).attr("href", $(this).attr("data-srcset"));
+                }
+                $(this).wrap(element);
+            });
+        } else {
+            $(".post__content").find("fancybox").find('img').each(function () {
+                var element = document.createElement("a");
+                $(element).attr("data-fancybox", "gallery");
+                $(element).attr("href", $(this).attr("src"));
+                if (lazyloadT) {
+                    $(element).attr("href", $(this).attr("data-srcset"));
+                }
+                $(this).wrap(element);
+            });
+        }
+    </script>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+    </body>
+</html>
