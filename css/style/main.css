@@ -9,7 +9,7 @@
   --body-color: #4c4d4e;
   --title-color: #50596c;
   --border-color: rgba(0,0,0,0.1);
-  --space: 7rem;
+  --space: 5rem;
   --content-width: 776px;
 }
 ::-webkit-scrollbar {
