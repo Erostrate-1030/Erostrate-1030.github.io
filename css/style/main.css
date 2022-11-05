@@ -925,7 +925,7 @@ overflows table td {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: space-evenly;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -945,7 +945,7 @@ overflows table td {
   font-family: rubik, sans-serif, Varela Round;
 }
 .header .header__left .logo__text {
-  font-size: 18px;
+  font-size: 16px;
   padding: 16px 10px 16px 10px;
   border-radius: 5px;
 }
@@ -1118,13 +1118,13 @@ overflows table td {
   opacity: 1;
 }
 .nav .nav__label {
-  font-size: 0.8rem;
-  font-weight: 450;
+  font-size: 1.5rem;
+  font-weight: 250;
   color: #808080;
 }
 .nav .nav__title {
   font-size: 1rem;
-  font-weight: 550;
+  font-weight: 200;
   line-height: 1.125;
 }
 .search-form {
