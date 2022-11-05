@@ -678,6 +678,9 @@ overflows table td {
 }
 .post-list>:last-child {
   margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 250;
+  line-height: 2;
 }
 .post-entry {
   margin-bottom: var(--space);
@@ -765,7 +768,8 @@ overflows table td {
   background-attachment: scroll;
 }
 .post__content p {
-  line-height: 1.8;
+  font-size: 15px;
+  line-height: 2;
 }
 .post__content img.inline {
   display: inline;
