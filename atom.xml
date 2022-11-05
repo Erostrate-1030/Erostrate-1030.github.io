@@ -259,27 +259,6 @@
   </entry>
   
   <entry>
-    <title>📌 今天應該很高興</title>
-    <link href="http://this-lib-cannot-afford-other-names.xyz/posts/today_should_be_a_happy_day.html"/>
-    <id>http://this-lib-cannot-afford-other-names.xyz/posts/today_should_be_a_happy_day.html</id>
-    <published>2022-10-19T12:26:12.753Z</published>
-    <updated>2022-11-03T09:22:01.406Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>希望大家终有一天能唱自己想唱的歌，跳自己想跳的舞。</p><span id="more"></span><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3vfT8rhjijlnDAge02wIs4?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;希望大家终有一天能唱自己想唱的歌，跳自己想跳的舞。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="🍵 AboutMe | 生活碎片" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%8D%B5-AboutMe-%E7%94%9F%E6%B4%BB%E7%A2%8E%E7%89%87/"/>
-    
-    
-    <category term="達明" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/%E9%81%94%E6%98%8E/"/>
-    
-  </entry>
-  
-  <entry>
     <title>《那些桥》</title>
     <link href="http://this-lib-cannot-afford-other-names.xyz/posts/on_the_bridge.html"/>
     <id>http://this-lib-cannot-afford-other-names.xyz/posts/on_the_bridge.html</id>
@@ -349,11 +328,11 @@
   </entry>
   
   <entry>
-    <title>📌 Change Log 更新日志</title>
+    <title>☁ Change Log 更新日志</title>
     <link href="http://this-lib-cannot-afford-other-names.xyz/posts/change_log.html"/>
     <id>http://this-lib-cannot-afford-other-names.xyz/posts/change_log.html</id>
     <published>2022-10-15T12:16:01.550Z</published>
-    <updated>2022-10-22T05:07:51.013Z</updated>
+    <updated>2022-11-05T11:41:21.810Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这里是关于这个博客的更新日志，长期更新（大概）</p><span id="more"></span><h2 id="🤔-想上线的功能"><a href="#🤔-想上线的功能" class="headerlink" title="🤔 想上线的功能"></a>🤔 想上线的功能</h2><table><thead><tr><th>加入日期</th><th>任务</th><th>紧急</th><th>必要</th><th>目前状态</th></tr></thead><tbody><tr><td>22-10-22</td><td>文章漫游</td><td>❌</td><td>❌</td><td>要修改权限</td></tr><tr><td>-</td><td>顶栏导航</td><td>❌</td><td>⭕</td><td>-</td></tr></tbody></table><hr><h2 id="🤗-以下是更新日志"><a href="#🤗-以下是更新日志" class="headerlink" title="🤗 以下是更新日志"></a>🤗 以下是更新日志</h2><h3 id="2022-10-22"><a href="#2022-10-22" class="headerlink" title="2022-10-22"></a>2022-10-22</h3><ul><li><a href="https://github.com/D0n9X1n/hexo-blog-encrypt">隐私设置 hexo-blog-encrypt</a><ul><li>之前装了之后发现很丑，需要改CSS，卸了</li><li>又装了回来，因为发现有些主题还挺好看的，将就用吧</li></ul></li></ul><h3 id="2022-10-21"><a href="#2022-10-21" class="headerlink" title="2022-10-21"></a>2022-10-21</h3><ul><li><a href="https://github.com/hexojs/hexo-generator-feed">rss订阅 hexo-generator-feed</a><ul><li>订阅只需要在主页域名后加 <code>/atom.xml</code> 即可</li></ul></li></ul><h3 id="2022-10-17"><a href="#2022-10-17" class="headerlink" title="2022-10-17"></a>2022-10-17</h3><ul><li><a href="https://github.com/Drew233/hexo-generator-random">文章漫游 hexo-generator-random</a><ul><li>会随机到一些不想被别人看到的页面，安全性担忧</li><li>后续可能会采用不用插件的方案</li></ul></li><li><a href="https://github.com/rozbo/hexo-abbrlink">短链接 hexo-abbrlink</a></li><li><a href="https://developer.spotify.com/documentation/embeds/guides/creating-an-embed/">文内音乐播放 embed track</a></li></ul><h3 id="2022-10-16"><a href="#2022-10-16" class="headerlink" title="2022-10-16"></a>2022-10-16</h3><ul><li><a href="https://theme-cards.ichr.me/pages/">归档功能 archives</a></li><li>更新了一下CSS代码（子分类缩进）</li></ul><h3 id="2022-10-15"><a href="#2022-10-15" class="headerlink" title="2022-10-15"></a>2022-10-15</h3><ul><li>创建更新日志</li></ul><h3 id="2022-10-07"><a href="#2022-10-07" class="headerlink" title="2022-10-07"></a>2022-10-07</h3><ul><li><a href="http://this-lib-cannot-afford-other-names.xyz/posts/genesis.html">创建博客</a><ul><li>初步配置有<ul><li>站内搜索</li><li>匿名评论</li><li>躲避站外搜索</li><li>置顶文章</li></ul></li></ul></li></ul>]]></content>
     

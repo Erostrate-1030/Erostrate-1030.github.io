@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>📌 今天應該很高興</title>
-    <url>/posts/today_should_be_a_happy_day.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>希望大家终有一天能唱自己想唱的歌，跳自己想跳的舞。</p>
-<span id="more"></span>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3vfT8rhjijlnDAge02wIs4?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>🍵 AboutMe | 生活碎片</category>
-      </categories>
-      <tags>
-        <tag>達明</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>📌 Change Log 更新日志</title>
+    <title>☁ Change Log 更新日志</title>
     <url>/posts/change_log.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这里是关于这个博客的更新日志，长期更新（大概）</p>
 <span id="more"></span>
