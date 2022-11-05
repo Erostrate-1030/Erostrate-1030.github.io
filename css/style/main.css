@@ -488,7 +488,7 @@ overflows table td {
 .post__content h6 {
   margin-top: 24px;
   margin-bottom: 20px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.25;
 }
 .post-entry__content h1,
@@ -850,6 +850,8 @@ overflows table td {
   display: block;
   text-align: center;
   margin: 3rem auto;
+  margin-top: 1rem;
+  padding: 5rem 0;
 }
 .cover .cover__logo {
   max-width: 1024px;
