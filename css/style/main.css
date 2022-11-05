@@ -1,7 +1,7 @@
 :root {
   --main-color: #737373;
   --bg-color: #f4f4f4;
-  --bg-content-color: #fff;
+  --bg-content-color: rgba(255,255,255,0.6);
   --bg-menu: #eceef2;
   --bg-tag-color: #f4f4f4;
   --bg-code: #eee;
