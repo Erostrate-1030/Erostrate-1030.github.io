@@ -553,10 +553,13 @@ overflows table td {
 }
 .archives .archives-item .archives-content .archives-year {
   margin: 0;
+  font-size: 40px;
 }
 .archives .archives-item .archives-content .archives-title {
   color: var(--title-color);
   font-size: 20px;
+  font-weight: 300;
+  line-height: 1;
 }
 .archives .archives-item:hover .archives-icon::before {
   background: var(--main-color);
