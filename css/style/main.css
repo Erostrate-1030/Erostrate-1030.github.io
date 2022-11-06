@@ -849,7 +849,7 @@ overflows table td {
 .cover {
   display: block;
   text-align: center;
-  margin: 3rem auto;
+  margin: 1rem auto;
   margin-top: 1rem;
   padding: 2rem 0;
 }
@@ -859,11 +859,11 @@ overflows table td {
   margin-right: auto;
 }
 .cover .cover__avatar {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  border-radius: 0;
+  width: 250px;
+  height: 250px;
   margin: 0 auto;
-  opacity: 0.4;
+  opacity: 0.5;
 }
 .cover .cover__intro {
   color: #999;
