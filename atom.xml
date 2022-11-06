@@ -3,11 +3,11 @@
   <title>EROSTRATE&#39;S LIBRARY</title>
   
   
-  <link href="http://this-lib-cannot-afford-other-names.xyz/atom.xml" rel="self"/>
+  <link href="https://this-lib-cannot-afford-other-names.xyz/atom.xml" rel="self"/>
   
-  <link href="http://this-lib-cannot-afford-other-names.xyz/"/>
+  <link href="https://this-lib-cannot-afford-other-names.xyz/"/>
   <updated>2022-11-04T13:56:55.585Z</updated>
-  <id>http://this-lib-cannot-afford-other-names.xyz/</id>
+  <id>https://this-lib-cannot-afford-other-names.xyz/</id>
   
   <author>
     <name>Erostrate</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>一些摘錄</title>
-    <link href="http://this-lib-cannot-afford-other-names.xyz/posts/initium_221104.html"/>
-    <id>http://this-lib-cannot-afford-other-names.xyz/posts/initium_221104.html</id>
+    <link href="https://this-lib-cannot-afford-other-names.xyz/posts/initium_221104.html"/>
+    <id>https://this-lib-cannot-afford-other-names.xyz/posts/initium_221104.html</id>
     <published>2022-11-04T13:56:20.839Z</published>
     <updated>2022-11-04T13:56:55.585Z</updated>
     
@@ -33,21 +33,21 @@
     
     
     
-    <category term="📰 Excerpts | 它山之石" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%B0-Excerpts-%E5%AE%83%E5%B1%B1%E4%B9%8B%E7%9F%B3/"/>
+    <category term="📰 Excerpts | 它山之石" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%B0-Excerpts-%E5%AE%83%E5%B1%B1%E4%B9%8B%E7%9F%B3/"/>
     
-    <category term="👁‍🗨 TheInitium" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%B0-Excerpts-%E5%AE%83%E5%B1%B1%E4%B9%8B%E7%9F%B3/%F0%9F%91%81%E2%80%8D%F0%9F%97%A8-TheInitium/"/>
+    <category term="👁‍🗨 TheInitium" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%B0-Excerpts-%E5%AE%83%E5%B1%B1%E4%B9%8B%E7%9F%B3/%F0%9F%91%81%E2%80%8D%F0%9F%97%A8-TheInitium/"/>
     
     
-    <category term="端媒" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/%E7%AB%AF%E5%AA%92/"/>
+    <category term="端媒" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/%E7%AB%AF%E5%AA%92/"/>
     
-    <category term="性" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/%E6%80%A7/"/>
+    <category term="性" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/%E6%80%A7/"/>
     
   </entry>
   
   <entry>
     <title>失乡</title>
-    <link href="http://this-lib-cannot-afford-other-names.xyz/posts/diaspora_in_my_home.html"/>
-    <id>http://this-lib-cannot-afford-other-names.xyz/posts/diaspora_in_my_home.html</id>
+    <link href="https://this-lib-cannot-afford-other-names.xyz/posts/diaspora_in_my_home.html"/>
+    <id>https://this-lib-cannot-afford-other-names.xyz/posts/diaspora_in_my_home.html</id>
     <published>2022-11-04T02:30:24.116Z</published>
     <updated>2022-11-04T02:33:27.869Z</updated>
     
@@ -61,17 +61,17 @@
     
     
     
-    <category term="🍵 AboutMe | 生活碎片" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%8D%B5-AboutMe-%E7%94%9F%E6%B4%BB%E7%A2%8E%E7%89%87/"/>
+    <category term="🍵 AboutMe | 生活碎片" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%8D%B5-AboutMe-%E7%94%9F%E6%B4%BB%E7%A2%8E%E7%89%87/"/>
     
     
-    <category term="诗" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/%E8%AF%97/"/>
+    <category term="诗" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/%E8%AF%97/"/>
     
   </entry>
   
   <entry>
     <title>阴雨连绵与无所事事</title>
-    <link href="http://this-lib-cannot-afford-other-names.xyz/posts/unrelenting_rain.html"/>
-    <id>http://this-lib-cannot-afford-other-names.xyz/posts/unrelenting_rain.html</id>
+    <link href="https://this-lib-cannot-afford-other-names.xyz/posts/unrelenting_rain.html"/>
+    <id>https://this-lib-cannot-afford-other-names.xyz/posts/unrelenting_rain.html</id>
     <published>2022-11-03T09:21:08.331Z</published>
     <updated>2022-11-03T09:21:23.995Z</updated>
     
@@ -82,15 +82,15 @@
     
     
     
-    <category term="🍵 AboutMe | 生活碎片" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%8D%B5-AboutMe-%E7%94%9F%E6%B4%BB%E7%A2%8E%E7%89%87/"/>
+    <category term="🍵 AboutMe | 生活碎片" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%8D%B5-AboutMe-%E7%94%9F%E6%B4%BB%E7%A2%8E%E7%89%87/"/>
     
     
   </entry>
   
   <entry>
     <title>《黑暗时代的人们》 论黑暗时代的人性：思考莱辛</title>
-    <link href="http://this-lib-cannot-afford-other-names.xyz/posts/men_in_dark_times_1.html"/>
-    <id>http://this-lib-cannot-afford-other-names.xyz/posts/men_in_dark_times_1.html</id>
+    <link href="https://this-lib-cannot-afford-other-names.xyz/posts/men_in_dark_times_1.html"/>
+    <id>https://this-lib-cannot-afford-other-names.xyz/posts/men_in_dark_times_1.html</id>
     <published>2022-10-27T04:16:34.289Z</published>
     <updated>2022-10-27T10:12:47.586Z</updated>
     
@@ -103,19 +103,19 @@
     
     
     
-    <category term="📰 Excerpts | 它山之石" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%B0-Excerpts-%E5%AE%83%E5%B1%B1%E4%B9%8B%E7%9F%B3/"/>
+    <category term="📰 Excerpts | 它山之石" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%B0-Excerpts-%E5%AE%83%E5%B1%B1%E4%B9%8B%E7%9F%B3/"/>
     
     
-    <category term="黑暗时代的人们" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/%E9%BB%91%E6%9A%97%E6%97%B6%E4%BB%A3%E7%9A%84%E4%BA%BA%E4%BB%AC/"/>
+    <category term="黑暗时代的人们" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/%E9%BB%91%E6%9A%97%E6%97%B6%E4%BB%A3%E7%9A%84%E4%BA%BA%E4%BB%AC/"/>
     
-    <category term="汉娜·阿伦特" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/%E6%B1%89%E5%A8%9C%C2%B7%E9%98%BF%E4%BC%A6%E7%89%B9/"/>
+    <category term="汉娜·阿伦特" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/%E6%B1%89%E5%A8%9C%C2%B7%E9%98%BF%E4%BC%A6%E7%89%B9/"/>
     
   </entry>
   
   <entry>
     <title>《黑暗时代的人们》 作者序与索引</title>
-    <link href="http://this-lib-cannot-afford-other-names.xyz/posts/men_in_dark_times_0.html"/>
-    <id>http://this-lib-cannot-afford-other-names.xyz/posts/men_in_dark_times_0.html</id>
+    <link href="https://this-lib-cannot-afford-other-names.xyz/posts/men_in_dark_times_0.html"/>
+    <id>https://this-lib-cannot-afford-other-names.xyz/posts/men_in_dark_times_0.html</id>
     <published>2022-10-27T04:15:09.011Z</published>
     <updated>2022-10-27T04:23:49.255Z</updated>
     
@@ -128,19 +128,19 @@
     
     
     
-    <category term="📰 Excerpts | 它山之石" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%B0-Excerpts-%E5%AE%83%E5%B1%B1%E4%B9%8B%E7%9F%B3/"/>
+    <category term="📰 Excerpts | 它山之石" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%B0-Excerpts-%E5%AE%83%E5%B1%B1%E4%B9%8B%E7%9F%B3/"/>
     
     
-    <category term="黑暗时代的人们" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/%E9%BB%91%E6%9A%97%E6%97%B6%E4%BB%A3%E7%9A%84%E4%BA%BA%E4%BB%AC/"/>
+    <category term="黑暗时代的人们" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/%E9%BB%91%E6%9A%97%E6%97%B6%E4%BB%A3%E7%9A%84%E4%BA%BA%E4%BB%AC/"/>
     
-    <category term="汉娜·阿伦特" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/%E6%B1%89%E5%A8%9C%C2%B7%E9%98%BF%E4%BC%A6%E7%89%B9/"/>
+    <category term="汉娜·阿伦特" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/%E6%B1%89%E5%A8%9C%C2%B7%E9%98%BF%E4%BC%A6%E7%89%B9/"/>
     
   </entry>
   
   <entry>
     <title>唉酱 搭建日志</title>
-    <link href="http://this-lib-cannot-afford-other-names.xyz/posts/ai_bot_building.html"/>
-    <id>http://this-lib-cannot-afford-other-names.xyz/posts/ai_bot_building.html</id>
+    <link href="https://this-lib-cannot-afford-other-names.xyz/posts/ai_bot_building.html"/>
+    <id>https://this-lib-cannot-afford-other-names.xyz/posts/ai_bot_building.html</id>
     <published>2022-10-23T09:18:38.502Z</published>
     <updated>2022-11-04T10:04:54.535Z</updated>
     
@@ -153,31 +153,31 @@
     
     
     
-    <category term="📜 LearningNotes | 学习日常" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/"/>
+    <category term="📜 LearningNotes | 学习日常" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/"/>
     
-    <category term="🐘 Mastodon" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/%F0%9F%90%98-Mastodon/"/>
+    <category term="🐘 Mastodon" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/%F0%9F%90%98-Mastodon/"/>
     
     
-    <category term="造物" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/%E9%80%A0%E7%89%A9/"/>
+    <category term="造物" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/%E9%80%A0%E7%89%A9/"/>
     
-    <category term="Mastodon" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/Mastodon/"/>
+    <category term="Mastodon" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/Mastodon/"/>
     
-    <category term="Bot" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/Bot/"/>
+    <category term="Bot" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/Bot/"/>
     
-    <category term="腦洞" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/%E8%85%A6%E6%B4%9E/"/>
+    <category term="腦洞" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/%E8%85%A6%E6%B4%9E/"/>
     
-    <category term="唉酱" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/%E5%94%89%E9%85%B1/"/>
+    <category term="唉酱" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/%E5%94%89%E9%85%B1/"/>
     
-    <category term="heroku" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/heroku/"/>
+    <category term="heroku" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/heroku/"/>
     
-    <category term="node.js" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/node-js/"/>
+    <category term="node.js" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/node-js/"/>
     
   </entry>
   
   <entry>
     <title>唉酱 修理笔记</title>
-    <link href="http://this-lib-cannot-afford-other-names.xyz/posts/ai_bot_errors.html"/>
-    <id>http://this-lib-cannot-afford-other-names.xyz/posts/ai_bot_errors.html</id>
+    <link href="https://this-lib-cannot-afford-other-names.xyz/posts/ai_bot_errors.html"/>
+    <id>https://this-lib-cannot-afford-other-names.xyz/posts/ai_bot_errors.html</id>
     <published>2022-10-23T09:10:07.126Z</published>
     <updated>2022-10-28T14:36:04.617Z</updated>
     
@@ -188,29 +188,29 @@
     
     
     
-    <category term="📜 LearningNotes | 学习日常" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/"/>
+    <category term="📜 LearningNotes | 学习日常" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/"/>
     
-    <category term="🐘 Mastodon" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/%F0%9F%90%98-Mastodon/"/>
+    <category term="🐘 Mastodon" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/%F0%9F%90%98-Mastodon/"/>
     
     
-    <category term="Mastodon" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/Mastodon/"/>
+    <category term="Mastodon" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/Mastodon/"/>
     
-    <category term="Bot" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/Bot/"/>
+    <category term="Bot" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/Bot/"/>
     
-    <category term="腦洞" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/%E8%85%A6%E6%B4%9E/"/>
+    <category term="腦洞" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/%E8%85%A6%E6%B4%9E/"/>
     
-    <category term="唉酱" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/%E5%94%89%E9%85%B1/"/>
+    <category term="唉酱" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/%E5%94%89%E9%85%B1/"/>
     
-    <category term="heroku" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/heroku/"/>
+    <category term="heroku" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/heroku/"/>
     
-    <category term="node.js" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/node-js/"/>
+    <category term="node.js" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/node-js/"/>
     
   </entry>
   
   <entry>
     <title>在太平洋衝浪要做好防溺水措施</title>
-    <link href="http://this-lib-cannot-afford-other-names.xyz/posts/dos_and_donts_when_surfing.html"/>
-    <id>http://this-lib-cannot-afford-other-names.xyz/posts/dos_and_donts_when_surfing.html</id>
+    <link href="https://this-lib-cannot-afford-other-names.xyz/posts/dos_and_donts_when_surfing.html"/>
+    <id>https://this-lib-cannot-afford-other-names.xyz/posts/dos_and_donts_when_surfing.html</id>
     <published>2022-10-22T04:59:25.327Z</published>
     <updated>2022-11-05T14:08:59.201Z</updated>
     
@@ -221,19 +221,19 @@
     
     
     
-    <category term="📜 LearningNotes | 学习日常" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/"/>
+    <category term="📜 LearningNotes | 学习日常" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/"/>
     
-    <category term="🍻 安利" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/%F0%9F%8D%BB-%E5%AE%89%E5%88%A9/"/>
+    <category term="🍻 安利" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/%F0%9F%8D%BB-%E5%AE%89%E5%88%A9/"/>
     
     
-    <category term="Mastodon" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/Mastodon/"/>
+    <category term="Mastodon" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/Mastodon/"/>
     
   </entry>
   
   <entry>
     <title>一些摘录</title>
-    <link href="http://this-lib-cannot-afford-other-names.xyz/posts/initium_221022.html"/>
-    <id>http://this-lib-cannot-afford-other-names.xyz/posts/initium_221022.html</id>
+    <link href="https://this-lib-cannot-afford-other-names.xyz/posts/initium_221022.html"/>
+    <id>https://this-lib-cannot-afford-other-names.xyz/posts/initium_221022.html</id>
     <published>2022-10-22T02:38:02.942Z</published>
     <updated>2022-10-22T02:50:27.822Z</updated>
     
@@ -247,21 +247,21 @@
     
     
     
-    <category term="📰 Excerpts | 它山之石" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%B0-Excerpts-%E5%AE%83%E5%B1%B1%E4%B9%8B%E7%9F%B3/"/>
+    <category term="📰 Excerpts | 它山之石" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%B0-Excerpts-%E5%AE%83%E5%B1%B1%E4%B9%8B%E7%9F%B3/"/>
     
-    <category term="👁‍🗨 TheInitium" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%B0-Excerpts-%E5%AE%83%E5%B1%B1%E4%B9%8B%E7%9F%B3/%F0%9F%91%81%E2%80%8D%F0%9F%97%A8-TheInitium/"/>
+    <category term="👁‍🗨 TheInitium" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%B0-Excerpts-%E5%AE%83%E5%B1%B1%E4%B9%8B%E7%9F%B3/%F0%9F%91%81%E2%80%8D%F0%9F%97%A8-TheInitium/"/>
     
     
-    <category term="端媒" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/%E7%AB%AF%E5%AA%92/"/>
+    <category term="端媒" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/%E7%AB%AF%E5%AA%92/"/>
     
-    <category term="MLA" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/MLA/"/>
+    <category term="MLA" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/MLA/"/>
     
   </entry>
   
   <entry>
     <title>《那些桥》</title>
-    <link href="http://this-lib-cannot-afford-other-names.xyz/posts/on_the_bridge.html"/>
-    <id>http://this-lib-cannot-afford-other-names.xyz/posts/on_the_bridge.html</id>
+    <link href="https://this-lib-cannot-afford-other-names.xyz/posts/on_the_bridge.html"/>
+    <id>https://this-lib-cannot-afford-other-names.xyz/posts/on_the_bridge.html</id>
     <published>2022-10-19T12:25:39.481Z</published>
     <updated>2022-10-22T02:44:54.173Z</updated>
     
@@ -272,17 +272,17 @@
     
     
     
-    <category term="📰 Excerpts | 它山之石" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%B0-Excerpts-%E5%AE%83%E5%B1%B1%E4%B9%8B%E7%9F%B3/"/>
+    <category term="📰 Excerpts | 它山之石" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%B0-Excerpts-%E5%AE%83%E5%B1%B1%E4%B9%8B%E7%9F%B3/"/>
     
     
-    <category term="希望" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/%E5%B8%8C%E6%9C%9B/"/>
+    <category term="希望" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/%E5%B8%8C%E6%9C%9B/"/>
     
   </entry>
   
   <entry>
     <title>DS8 結課紀念</title>
-    <link href="http://this-lib-cannot-afford-other-names.xyz/posts/end_of_DS8.html"/>
-    <id>http://this-lib-cannot-afford-other-names.xyz/posts/end_of_DS8.html</id>
+    <link href="https://this-lib-cannot-afford-other-names.xyz/posts/end_of_DS8.html"/>
+    <id>https://this-lib-cannot-afford-other-names.xyz/posts/end_of_DS8.html</id>
     <published>2022-10-16T14:24:50.961Z</published>
     <updated>2022-11-03T09:22:32.788Z</updated>
     
@@ -295,19 +295,19 @@
     
     
     
-    <category term="📜 LearningNotes | 学习日常" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/"/>
+    <category term="📜 LearningNotes | 学习日常" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/"/>
     
-    <category term="💻 DS Learning" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/%F0%9F%92%BB-DS-Learning/"/>
+    <category term="💻 DS Learning" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/%F0%9F%92%BB-DS-Learning/"/>
     
     
-    <category term="DS8" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/DS8/"/>
+    <category term="DS8" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/DS8/"/>
     
   </entry>
   
   <entry>
     <title>那個下午我在舊居燒信</title>
-    <link href="http://this-lib-cannot-afford-other-names.xyz/posts/burning_letters.html"/>
-    <id>http://this-lib-cannot-afford-other-names.xyz/posts/burning_letters.html</id>
+    <link href="https://this-lib-cannot-afford-other-names.xyz/posts/burning_letters.html"/>
+    <id>https://this-lib-cannot-afford-other-names.xyz/posts/burning_letters.html</id>
     <published>2022-10-15T13:25:56.225Z</published>
     <updated>2022-11-03T09:21:43.173Z</updated>
     
@@ -320,17 +320,17 @@
     
     
     
-    <category term="🍵 AboutMe | 生活碎片" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%8D%B5-AboutMe-%E7%94%9F%E6%B4%BB%E7%A2%8E%E7%89%87/"/>
+    <category term="🍵 AboutMe | 生活碎片" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%8D%B5-AboutMe-%E7%94%9F%E6%B4%BB%E7%A2%8E%E7%89%87/"/>
     
     
-    <category term="達明" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/%E9%81%94%E6%98%8E/"/>
+    <category term="達明" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/%E9%81%94%E6%98%8E/"/>
     
   </entry>
   
   <entry>
     <title>Change Log 更新日志</title>
-    <link href="http://this-lib-cannot-afford-other-names.xyz/posts/change_log.html"/>
-    <id>http://this-lib-cannot-afford-other-names.xyz/posts/change_log.html</id>
+    <link href="https://this-lib-cannot-afford-other-names.xyz/posts/change_log.html"/>
+    <id>https://this-lib-cannot-afford-other-names.xyz/posts/change_log.html</id>
     <published>2022-10-15T12:16:01.550Z</published>
     <updated>2022-11-05T14:53:58.460Z</updated>
     
@@ -341,15 +341,15 @@
     
     
     
-    <category term="🍩 AboutLib | 博客纪年" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%8D%A9-AboutLib-%E5%8D%9A%E5%AE%A2%E7%BA%AA%E5%B9%B4/"/>
+    <category term="🍩 AboutLib | 博客纪年" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%8D%A9-AboutLib-%E5%8D%9A%E5%AE%A2%E7%BA%AA%E5%B9%B4/"/>
     
     
   </entry>
   
   <entry>
     <title>Genesis 创世纪</title>
-    <link href="http://this-lib-cannot-afford-other-names.xyz/posts/genesis.html"/>
-    <id>http://this-lib-cannot-afford-other-names.xyz/posts/genesis.html</id>
+    <link href="https://this-lib-cannot-afford-other-names.xyz/posts/genesis.html"/>
+    <id>https://this-lib-cannot-afford-other-names.xyz/posts/genesis.html</id>
     <published>2022-10-07T15:32:10.810Z</published>
     <updated>2022-10-19T12:37:00.662Z</updated>
     
@@ -360,10 +360,10 @@
     
     
     
-    <category term="🍩 AboutLib | 博客纪年" scheme="http://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%8D%A9-AboutLib-%E5%8D%9A%E5%AE%A2%E7%BA%AA%E5%B9%B4/"/>
+    <category term="🍩 AboutLib | 博客纪年" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%8D%A9-AboutLib-%E5%8D%9A%E5%AE%A2%E7%BA%AA%E5%B9%B4/"/>
     
     
-    <category term="造物" scheme="http://this-lib-cannot-afford-other-names.xyz/tags/%E9%80%A0%E7%89%A9/"/>
+    <category term="造物" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/%E9%80%A0%E7%89%A9/"/>
     
   </entry>
   
