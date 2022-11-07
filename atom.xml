@@ -261,8 +261,6 @@
     <category term="🐘 Mastodon" scheme="https://this-lib-cannot-afford-other-names.xyz/categories/%F0%9F%93%9C-LearningNotes-%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/%F0%9F%90%98-Mastodon/"/>
     
     
-    <category term="造物" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/%E9%80%A0%E7%89%A9/"/>
-    
     <category term="Mastodon" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/Mastodon/"/>
     
     <category term="Bot" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/Bot/"/>
@@ -274,6 +272,8 @@
     <category term="heroku" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/heroku/"/>
     
     <category term="node.js" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/node-js/"/>
+    
+    <category term="造物" scheme="https://this-lib-cannot-afford-other-names.xyz/tags/%E9%80%A0%E7%89%A9/"/>
     
   </entry>
   
