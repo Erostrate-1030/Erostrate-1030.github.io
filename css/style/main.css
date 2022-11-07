@@ -1,7 +1,7 @@
 :root {
   --main-color: #737373;
   --bg-color: #f4f4f4;
-  --bg-content-color: rgba(255,255,255,0.6);
+  --bg-content-color: rgba(255,255,255,0.2);
   --bg-menu: #eceef2;
   --bg-tag-color: #f4f4f4;
   --bg-code: #eee;
@@ -63,7 +63,11 @@ section {
   margin: 0 auto;
   padding: 1.5vw 12px 0;
 }
-.main.tagscloud,
+.main.tagscloud {
+  margin: 0 auto;
+  max-width: 1024px;
+  text-align: center;
+}
 .main.links {
   margin: 0 auto;
   max-width: 1024px;
@@ -468,11 +472,12 @@ overflows table td {
 }
 .post-entry__content>.highlight,
 .post__content>.highlight {
-  margin: 1rem calc(0rem - var(--space)) !important;
-  padding: 0.4rem var(--space) !important;
-  border: none !important;
+  margin: 1rem !important;
+  padding: 0.4rem 1em !important;
+  border: 1px rgba(211,211,211,0.1) solid;
   border-radius: 0 !important;
   width: auto;
+  background-color: rgba(211,211,211,0.1);
 }
 .post-entry__content h1,
 .post__content h1,
@@ -506,7 +511,7 @@ overflows table td {
 .archives {
   position: relative;
   max-width: var(--content-width);
-  margin: 0 auto;
+  margin: 0 15em;
 }
 .archives .archives-item {
   display: -webkit-box;
@@ -915,9 +920,6 @@ overflows table td {
   bottom: 1.2rem;
   border-radius: 5px;
   color: var(--title-color);
-  background-color: var(--bg-menu);
-  -webkit-box-shadow: 0 0.3rem 0.6rem rgba(48,55,66,0.15);
-  box-shadow: 0 0.3rem 0.6rem rgba(48,55,66,0.15);
 }
 .footer #b2t * {
   margin: 8px;
@@ -928,12 +930,12 @@ overflows table td {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-evenly;
+  justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   min-height: 60px;
-  padding: 0 calc(var(--space) / 2);
+  padding: 0 calc((100vw - 776px) / 2);
   top: 0;
   z-index: 10;
 }
@@ -1200,7 +1202,7 @@ overflows table td {
   color: #808080;
 }
 .toc .toc-child {
-  padding-left: 0.6rem;
+  padding-left: 1rem;
   list-style-type: none;
 }
 .btn-toc {
