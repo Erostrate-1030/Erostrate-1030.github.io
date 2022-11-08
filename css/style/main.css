@@ -65,7 +65,7 @@ section {
 }
 .main.tagscloud {
   margin: 0 auto;
-  max-width: 1024px;
+  max-width: 776px;
   text-align: center;
 }
 .main.links {
@@ -878,7 +878,7 @@ overflows table td {
   width: 250px;
   height: 250px;
   margin: 0 auto;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 .cover .cover__intro {
   color: #999;
