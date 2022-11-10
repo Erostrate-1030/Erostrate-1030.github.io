@@ -43,7 +43,7 @@
 <meta property="og:description" content="相关网站 参考视频：https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1Jt411D7j6 参考网站：https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Learn&#x2F;JavaScript   JS基础123456789alert(&quot;hello world!&quot;.toUpperCase());&#x2F;&#x2F; &#96;alert&#96;相当于Python中的&#96;">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-11-10T13:41:37.895Z">
-<meta property="article:modified_time" content="2022-11-10T14:00:29.558Z">
+<meta property="article:modified_time" content="2022-11-10T15:03:33.304Z">
 <meta property="article:author" content="Erostrate">
 <meta property="article:tag" content="JS">
 <meta name="twitter:card" content="summary_large_image">
@@ -227,12 +227,13 @@
 <h2 id="封包"><a href="#封包" class="headerlink" title="封包"></a>封包</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">makeAdder</span>(<span class="params">a</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">function</span>(<span class="params">b</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> a + b;</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> x = <span class="title function_">makeAdder</span>(<span class="number">5</span>);</span><br><span class="line"><span class="keyword">var</span> sum = <span class="title function_">x</span>(<span class="number">6</span>);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(sum)</span><br><span class="line"><span class="comment">// 返回11</span></span><br><span class="line"><span class="comment">// `x`是一个函数，`makeAdder`函数返回一个功能为`a+b`的任意名称函数</span></span><br><span class="line"><span class="comment">// 当`b`不能与`a`同时被得到的时候，我们等待`b`得到；当`b`赋值之后，`makeAdder(a)`返回`function(b)`，即`a+b`</span></span><br></pre></td></tr></table></figure>
 
 <blockquote>
-<p>一个复杂的functionC一般会由多个更简单的function组成，而这些简单fanction之间的关系可能是这样的：一个functionA能够表达的前提是以 另一个functionB的完成为基础。那么functionB就叫回调函数，functionA叫高阶函数，functionC叫组合函数。<br><br><br><br><br>比如: </p>
-<ul>
-<li>functionC:穿新衣服参加婚礼</li>
-<li>functionB：买新衣服&amp;&amp;有人举行婚礼 </li>
-<li>functionA:参加婚礼</li>
-</ul>
+<p>一个复杂的functionC一般会由多个更简单的function组成，而这些简单fanction之间的关系可能是这样的：一个functionA能够表达的前提是以 另一个functionB的完成为基础。那么functionB就叫回调函数，functionA叫高阶函数，functionC叫组合函数。</p>
+<br>
+比如: 
+- functionC:穿新衣服参加婚礼
+- functionB：买新衣服&&有人举行婚礼 
+- functionA:参加婚礼
+
 <br>
 functionB通过返回新衣服和婚礼，来提供fuctionA行动的前提。所以：functionB是functionA的回调函数。^[1]
 </blockquote>

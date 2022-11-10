@@ -113,13 +113,40 @@
 <p>Obsidian 的自定义 CSS 片段，相当于用新的片段覆盖原有片段，从而实现自定义样式。我们在 <code>设置</code>-<code>选项</code>-<code>外观</code>-<code>CSS片段</code> 中进行片段导入（即将写好的片段导入对应的文件夹），完成导入后启动，即可在窗口中完成样式修改。</p>
 <p>最后如果您像我一样是新手，还需要注意，当我们在选择对应元素的时候，最好在预览模式下进行选择。因为编辑模式下的样式更改不会同步到预览模式（应该是由于选择器的不同），但是预览模式下的样式设置往往可以同步到编辑模式。</p>
 <hr>
-<h2 id="片段集合"><a href="#片段集合" class="headerlink" title="片段集合"></a>片段集合</h2><h3 id="引用-blockquote"><a href="#引用-blockquote" class="headerlink" title="引用 blockquote"></a>引用 blockquote</h3><p>更改：</p>
+<h2 id="片段集合"><a href="#片段集合" class="headerlink" title="片段集合"></a>片段集合</h2><h3 id="blockquote-引用"><a href="#blockquote-引用" class="headerlink" title="blockquote 引用"></a>blockquote 引用</h3><p>更改：</p>
 <ul>
 <li>加上了左侧边框（Sanctum-Light 主题下没有）</li>
 <li>减淡字体颜色</li>
 </ul>
 <details ><summary>CSS 片段</summary><div class="fold-content"><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">    <span class="attr">--blockquote-border-thickness</span>: <span class="number">5px</span>;</span><br><span class="line">    <span class="attr">--blockquote-size</span>: .<span class="number">9rem</span>;</span><br><span class="line">    <span class="attr">--blockquote-font-style</span>: inherit;</span><br><span class="line">    <span class="attr">--blockquote-color</span>: <span class="number">#8080809e</span>;</span><br><span class="line">    <span class="attr">--blockquote-background-color</span>: inherit;</span><br><span class="line">    <span class="attr">--blockquote-border-color</span>: <span class="built_in">var</span>(--background-modifier-border);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </div></details>
+
+<h3 id="heading-标题大小写调整"><a href="#heading-标题大小写调整" class="headerlink" title="heading 标题大小写调整"></a>heading 标题大小写调整</h3><p>更改：</p>
+<ul>
+<li><code>v1.0.3</code>下，弱化顶端文件名存在感</li>
+<li>一级标题全大写，居中</li>
+<li>一级标题外，其它标题首字母大写</li>
+</ul>
+<details ><summary>CSS 片段</summary><div class="fold-content"><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.inline-title</span> &#123;</span><br><span class="line">    <span class="attribute">font-weight</span>: <span class="number">100</span>;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">25px</span>;</span><br><span class="line">    <span class="attribute">line-height</span>: <span class="built_in">var</span>(--inline-title-line-height);</span><br><span class="line">    <span class="attribute">font-style</span>: <span class="built_in">var</span>(--inline-title-style);</span><br><span class="line">    <span class="attribute">font-variant</span>: <span class="built_in">var</span>(--inline-title-variant);</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="built_in">var</span>(--inline-title-font);</span><br><span class="line">    <span class="attribute">padding-bottom</span>: <span class="number">0.5em</span>;</span><br><span class="line">    <span class="attribute">letter-spacing</span>: -<span class="number">0.015em</span>;</span><br><span class="line">    <span class="attribute">color</span>: lightgray;</span><br><span class="line">    <span class="attribute">text-align</span>: right;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">h1</span>, <span class="selector-class">.markdown-rendered</span> <span class="selector-tag">h1</span>, <span class="selector-class">.HyperMD-header-1</span>, <span class="selector-class">.HyperMD-list-line</span> <span class="selector-class">.cm-header-1</span>&#123;</span><br><span class="line">    <span class="attribute">border</span>: none;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="built_in">var</span>(--h1-font);</span><br><span class="line">    <span class="attribute">text-align</span>: center;</span><br><span class="line">    <span class="attribute">text-transform</span>: uppercase;</span><br><span class="line">    <span class="attribute">border-bottom</span>: <span class="number">1px</span> <span class="built_in">rgba</span>(<span class="number">211</span>, <span class="number">211</span>, <span class="number">211</span>, <span class="number">0.50</span>) solid;</span><br><span class="line">    <span class="attribute">margin-bottom</span>: <span class="number">1em</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">h2</span>, <span class="selector-class">.markdown-rendered</span> <span class="selector-tag">h2</span>, <span class="selector-class">.HyperMD-header-2</span>, <span class="selector-class">.HyperMD-list-line</span> <span class="selector-class">.cm-header-2</span> &#123;</span><br><span class="line">    <span class="attribute">font-variant</span>: <span class="built_in">var</span>(--h2-variant);</span><br><span class="line">    <span class="attribute">letter-spacing</span>: -<span class="number">0.015em</span>;</span><br><span class="line">    <span class="attribute">line-height</span>: <span class="built_in">var</span>(--h2-line-height);</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="built_in">var</span>(--h2-size);</span><br><span class="line">    <span class="attribute">color</span>: <span class="built_in">var</span>(--h2-color);</span><br><span class="line">    <span class="attribute">font-weight</span>: <span class="built_in">var</span>(--h2-weight);</span><br><span class="line">    <span class="attribute">font-style</span>: <span class="built_in">var</span>(--h2-style);</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="built_in">var</span>(--h2-font);</span><br><span class="line">    <span class="attribute">text-transform</span>: capitalize;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">h3</span>, <span class="selector-class">.markdown-rendered</span> <span class="selector-tag">h3</span>, <span class="selector-class">.HyperMD-header-3</span>, <span class="selector-class">.HyperMD-list-line</span> <span class="selector-class">.cm-header-3</span> &#123;</span><br><span class="line">    <span class="attribute">font-variant</span>: <span class="built_in">var</span>(--h3-variant);</span><br><span class="line">    <span class="attribute">letter-spacing</span>: -<span class="number">0.015em</span>;</span><br><span class="line">    <span class="attribute">line-height</span>: <span class="built_in">var</span>(--h3-line-height);</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="built_in">var</span>(--h3-size);</span><br><span class="line">    <span class="attribute">color</span>: <span class="built_in">var</span>(--h3-color);</span><br><span class="line">    <span class="attribute">font-weight</span>: <span class="built_in">var</span>(--h3-weight);</span><br><span class="line">    <span class="attribute">font-style</span>: <span class="built_in">var</span>(--h3-style);</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="built_in">var</span>(--h3-font);</span><br><span class="line">    <span class="attribute">text-transform</span>: capitalize;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">h4</span>, <span class="selector-class">.markdown-rendered</span> <span class="selector-tag">h4</span>, <span class="selector-class">.HyperMD-header-4</span>, <span class="selector-class">.HyperMD-list-line</span> <span class="selector-class">.cm-header-4</span> &#123;</span><br><span class="line">    <span class="attribute">font-variant</span>: <span class="built_in">var</span>(--h4-variant);</span><br><span class="line">    <span class="attribute">letter-spacing</span>: <span class="number">0.015em</span>;</span><br><span class="line">    <span class="attribute">line-height</span>: <span class="built_in">var</span>(--h4-line-height);</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="built_in">var</span>(--h4-size);</span><br><span class="line">    <span class="attribute">color</span>: <span class="built_in">var</span>(--h4-color);</span><br><span class="line">    <span class="attribute">font-weight</span>: <span class="built_in">var</span>(--h4-weight);</span><br><span class="line">    <span class="attribute">font-style</span>: <span class="built_in">var</span>(--h4-style);</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="built_in">var</span>(--h4-font);</span><br><span class="line">    <span class="attribute">text-transform</span>: capitalize;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">h5</span>, <span class="selector-class">.markdown-rendered</span> <span class="selector-tag">h5</span>, <span class="selector-class">.HyperMD-header-5</span>, <span class="selector-class">.HyperMD-list-line</span> <span class="selector-class">.cm-header-5</span> &#123;</span><br><span class="line">    <span class="attribute">font-variant</span>: <span class="built_in">var</span>(--h5-variant);</span><br><span class="line">    <span class="attribute">letter-spacing</span>: <span class="number">0.015em</span>;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="built_in">var</span>(--h5-size);</span><br><span class="line">    <span class="attribute">line-height</span>: <span class="built_in">var</span>(--h5-line-height);</span><br><span class="line">    <span class="attribute">color</span>: <span class="built_in">var</span>(--h5-color);</span><br><span class="line">    <span class="attribute">font-weight</span>: <span class="built_in">var</span>(--h5-weight);</span><br><span class="line">    <span class="attribute">font-style</span>: <span class="built_in">var</span>(--h5-style);</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="built_in">var</span>(--h5-font);</span><br><span class="line">    <span class="attribute">text-transform</span>: capitalize;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">h6</span>, <span class="selector-class">.markdown-rendered</span> <span class="selector-tag">h6</span>, <span class="selector-class">.HyperMD-header-6</span>, <span class="selector-class">.HyperMD-list-line</span> <span class="selector-class">.cm-header-6</span> &#123;</span><br><span class="line">    <span class="attribute">font-variant</span>: <span class="built_in">var</span>(--h6-variant);</span><br><span class="line">    <span class="attribute">letter-spacing</span>: <span class="number">0.015em</span>;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="built_in">var</span>(--h6-size);</span><br><span class="line">    <span class="attribute">line-height</span>: <span class="built_in">var</span>(--h6-line-height);</span><br><span class="line">    <span class="attribute">color</span>: <span class="built_in">var</span>(--h6-color);</span><br><span class="line">    <span class="attribute">font-weight</span>: <span class="built_in">var</span>(--h6-weight);</span><br><span class="line">    <span class="attribute">font-style</span>: <span class="built_in">var</span>(--h6-style);</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="built_in">var</span>(--h6-font);</span><br><span class="line">    <span class="attribute">text-transform</span>: capitalize;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div></details>
+
+<h3 id="md-文本对齐"><a href="#md-文本对齐" class="headerlink" title="md 文本对齐"></a>md 文本对齐</h3><p>更改：</p>
+<ul>
+<li>文本分布对齐</li>
+</ul>
+<details ><summary>CSS 片段</summary><div class="fold-content"><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.markdown-source-view</span><span class="selector-class">.mod-cm6</span> <span class="selector-class">.cm-content</span> &#123;</span><br><span class="line">    <span class="attribute">flex-basis</span>: unset <span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">caret-color</span>: <span class="built_in">var</span>(--text-normal);</span><br><span class="line">    -webkit-user-modify: read-write-plaintext-only;</span><br><span class="line">    <span class="attribute">min-height</span>: unset;</span><br><span class="line">    <span class="attribute">text-align</span>: justify;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.markdown-preview-view</span> &#123;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="built_in">var</span>(--font-text-size);</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="built_in">var</span>(--font-text);</span><br><span class="line">    <span class="attribute">line-height</span>: <span class="built_in">var</span>(--line-height-normal);</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="built_in">var</span>(--file-margins);</span><br><span class="line">    <span class="attribute">position</span>: relative;</span><br><span class="line">    <span class="attribute">overflow-y</span>: auto;</span><br><span class="line">    <span class="attribute">overflow-wrap</span>: break-word;</span><br><span class="line">    <span class="attribute">color</span>: <span class="built_in">var</span>(--text-normal);</span><br><span class="line">    user-select: text;</span><br><span class="line">    -webkit-user-select: text;</span><br><span class="line">    <span class="attribute">text-align</span>: justify;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div></details>
+
+<h3 id="callout-背景透明度"><a href="#callout-背景透明度" class="headerlink" title="callout 背景透明度"></a>callout 背景透明度</h3><p>更改：</p>
+<ul>
+<li>降低背景颜色透明度</li>
+</ul>
+<details ><summary>CSS 片段</summary><div class="fold-content"><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.callout</span>&#123;</span><br><span class="line">    <span class="attribute">border</span>: <span class="built_in">var</span>(--callout-border-width) solid <span class="built_in">rgba</span>(<span class="built_in">var</span>(--callout-color), <span class="built_in">var</span>(--callout-border-opacity));</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="built_in">rgba</span>(<span class="built_in">var</span>(--callout-color), <span class="number">0.05</span>);</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">16px</span> <span class="number">12px</span> <span class="number">16px</span> <span class="number">12px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div></details>
+
+<h3 id="callout-标题右对齐"><a href="#callout-标题右对齐" class="headerlink" title="callout 标题右对齐"></a>callout 标题右对齐</h3><p>更改：</p>
+<ul>
+<li>标题右对齐</li>
+<li>删去图标</li>
+</ul>
+<details ><summary>CSS 片段</summary><div class="fold-content"><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.callout-title</span> <span class="selector-class">.callout-title-inner</span> &#123;</span><br><span class="line">    <span class="attribute">flex-grow</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">text-align</span>: right;</span><br><span class="line">    <span class="attribute">text-transform</span>: uppercase;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.svg-inline--fa</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: none;</span><br><span class="line">    <span class="attribute">font-size</span>: inherit;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">1em</span>;</span><br><span class="line">    <span class="attribute">overflow</span>: visible;</span><br><span class="line">    <span class="attribute">vertical-align</span>: -<span class="number">0.125em</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div></details>
 
 
 ]]></content>
@@ -176,12 +203,13 @@
 <h2 id="封包"><a href="#封包" class="headerlink" title="封包"></a>封包</h2><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">makeAdder</span>(<span class="params">a</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">function</span>(<span class="params">b</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> a + b;</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> x = <span class="title function_">makeAdder</span>(<span class="number">5</span>);</span><br><span class="line"><span class="keyword">var</span> sum = <span class="title function_">x</span>(<span class="number">6</span>);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(sum)</span><br><span class="line"><span class="comment">// 返回11</span></span><br><span class="line"><span class="comment">// `x`是一个函数，`makeAdder`函数返回一个功能为`a+b`的任意名称函数</span></span><br><span class="line"><span class="comment">// 当`b`不能与`a`同时被得到的时候，我们等待`b`得到；当`b`赋值之后，`makeAdder(a)`返回`function(b)`，即`a+b`</span></span><br></pre></td></tr></table></figure>
 
 <blockquote>
-<p>一个复杂的functionC一般会由多个更简单的function组成，而这些简单fanction之间的关系可能是这样的：一个functionA能够表达的前提是以 另一个functionB的完成为基础。那么functionB就叫回调函数，functionA叫高阶函数，functionC叫组合函数。<br><br><br><br><br>比如: </p>
-<ul>
-<li>functionC:穿新衣服参加婚礼</li>
-<li>functionB：买新衣服&amp;&amp;有人举行婚礼 </li>
-<li>functionA:参加婚礼</li>
-</ul>
+<p>一个复杂的functionC一般会由多个更简单的function组成，而这些简单fanction之间的关系可能是这样的：一个functionA能够表达的前提是以 另一个functionB的完成为基础。那么functionB就叫回调函数，functionA叫高阶函数，functionC叫组合函数。</p>
+<br>
+比如: 
+- functionC:穿新衣服参加婚礼
+- functionB：买新衣服&&有人举行婚礼 
+- functionA:参加婚礼
+
 <br>
 functionB通过返回新衣服和婚礼，来提供fuctionA行动的前提。所以：functionB是functionA的回调函数。^[1]
 </blockquote>
@@ -1394,21 +1422,6 @@ functionB通过返回新衣服和婚礼，来提供fuctionA行动的前提。所
       </tags>
   </entry>
   <entry>
-    <title>CATEGORIES</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-  </entry>
-  <entry>
-    <title>ARCHIVE</title>
-    <url>/archives/index.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-  </entry>
-  <entry>
-    <title>Resources</title>
-    <url>/resources/index.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-  </entry>
-  <entry>
     <title></title>
     <url>/about/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr>
@@ -1417,8 +1430,13 @@ functionB通过返回新衣服和婚礼，来提供fuctionA行动的前提。所
 ]]></content>
   </entry>
   <entry>
-    <title>SEARCH</title>
-    <url>/search/index.html</url>
+    <title>ARCHIVE</title>
+    <url>/archives/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
+  <entry>
+    <title>CATEGORIES</title>
+    <url>/categories/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
   <entry>
@@ -1427,6 +1445,16 @@ functionB通过返回新衣服和婚礼，来提供fuctionA行动的前提。所
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr>
 <h1 id="layout-links"><a href="#layout-links" class="headerlink" title="layout: links"></a>layout: links</h1><hr>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Resources</title>
+    <url>/resources/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
+  <entry>
+    <title>SEARCH</title>
+    <url>/search/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
   <entry>
     <title>TAGS</title>
