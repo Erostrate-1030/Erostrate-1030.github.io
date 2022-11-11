@@ -202,18 +202,16 @@
 <hr>
 <h2 id="封包"><a href="#封包" class="headerlink" title="封包"></a>封包</h2><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">makeAdder</span>(<span class="params">a</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">function</span>(<span class="params">b</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> a + b;</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> x = <span class="title function_">makeAdder</span>(<span class="number">5</span>);</span><br><span class="line"><span class="keyword">var</span> sum = <span class="title function_">x</span>(<span class="number">6</span>);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(sum)</span><br><span class="line"><span class="comment">// 返回11</span></span><br><span class="line"><span class="comment">// `x`是一个函数，`makeAdder`函数返回一个功能为`a+b`的任意名称函数</span></span><br><span class="line"><span class="comment">// 当`b`不能与`a`同时被得到的时候，我们等待`b`得到；当`b`赋值之后，`makeAdder(a)`返回`function(b)`，即`a+b`</span></span><br></pre></td></tr></table></figure>
 
-<blockquote>
-<p>一个复杂的functionC一般会由多个更简单的function组成，而这些简单fanction之间的关系可能是这样的：一个functionA能够表达的前提是以 另一个functionB的完成为基础。那么functionB就叫回调函数，functionA叫高阶函数，functionC叫组合函数。</p>
-<br>
-比如: 
-- functionC:穿新衣服参加婚礼
-- functionB：买新衣服&&有人举行婚礼 
-- functionA:参加婚礼
 
-<br>
-functionB通过返回新衣服和婚礼，来提供fuctionA行动的前提。所以：functionB是functionA的回调函数。^[1]
-</blockquote>
-]]></content>
+<details ><summary>摘自原视频评论区解释</summary><div class="fold-content"><p>一个复杂的functionC一般会由多个更简单的function组成，而这些简单fanction之间的关系可能是这样的：一个functionA能够表达的前提是以 另一个functionB的完成为基础。那么functionB就叫回调函数，functionA叫高阶函数，functionC叫组合函数。</p>
+<p>比如: </p>
+<ul>
+<li>functionC:穿新衣服参加婚礼</li>
+<li>functionB：买新衣服&amp;&amp;有人举行婚礼 </li>
+<li>functionA:参加婚礼</li>
+</ul>
+<p>functionB通过返回新衣服和婚礼，来提供fuctionA行动的前提。所以：functionB是functionA的回调函数。</p>
+</div></details>]]></content>
       <categories>
         <category>📜 LearningNotes | 学习日常</category>
         <category>🎨 前端相关</category>
@@ -1435,16 +1433,16 @@ functionB通过返回新衣服和婚礼，来提供fuctionA行动的前提。所
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
   <entry>
-    <title>CATEGORIES</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-  </entry>
-  <entry>
     <title></title>
     <url>/links/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr>
 <h1 id="layout-links"><a href="#layout-links" class="headerlink" title="layout: links"></a>layout: links</h1><hr>
 ]]></content>
+  </entry>
+  <entry>
+    <title>CATEGORIES</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
   <entry>
     <title>Resources</title>
