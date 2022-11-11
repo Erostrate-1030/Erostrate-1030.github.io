@@ -201,9 +201,7 @@ hr {
   overflow: hidden;
   background: transparent;
   border: 0;
-  border-bottom: 1px solid #dfe2e5;
-  border-bottom-color: #eee;
-  height: 0.1em;
+  border-bottom: 1px solid #d3d3d3;
   padding: 0;
   margin: 24px 0;
   background-color: #e1e4e8;
@@ -505,7 +503,6 @@ overflows table td {
 .post-entry__content h2,
 .post__content h2 {
   padding-bottom: 0.3em;
-  border-bottom: 1px solid #eaecef;
 }
 .post-entry__content h6,
 .post__content h6 {
