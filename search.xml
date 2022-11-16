@@ -1493,8 +1493,13 @@
     <title>README</title>
     <url>/about/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr>
-<p>你好，欢迎来到我的博客。</p>
-]]></content>
+<p align="center">你好，我是电子幽灵 Erostrate，是这片领域的维护者。</p>
+
+<p align="center">我并不喜欢被太多人打扰，因此如果您希望与我取得联系，可在<a href="https://box.n3ko.co/_/to_erostrate">此处</a>留下一张纸条。</p>
+
+<br>
+
+<p align="center"><del>（说完，自称维护者的云状生物便慢悠悠地飘回了她的窗口）</del></p>]]></content>
   </entry>
   <entry>
     <title>CATEGORIES</title>
@@ -1509,13 +1514,13 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Resources</title>
-    <url>/resources/index.html</url>
+    <title>SEARCH</title>
+    <url>/search/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
   <entry>
-    <title>SEARCH</title>
-    <url>/search/index.html</url>
+    <title>Resources</title>
+    <url>/resources/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
   <entry>

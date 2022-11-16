@@ -1491,8 +1491,16 @@ h4::before{
 
 
  h6 {
-     font-size: 18px }
+    font-size: 18px;
+}
 
+h6::before {
+    content: "< "
+}
+
+h6::after {
+    content: " >"
+}
 
  h1 small {
      font-size: 18px }
@@ -1511,7 +1519,7 @@ h4::before{
 
 
  p {
-     margin: 0em 1em 2em }
+     margin: 1em 1em 2em }
 
 
  .lead {
@@ -2370,7 +2378,6 @@ h4::before{
 
  .col-md-8 {
      width: 66.66666667% }
-
 
  .col-md-7 {
      width: 58.33333333% }

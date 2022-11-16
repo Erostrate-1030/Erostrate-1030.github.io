@@ -48,9 +48,20 @@
      font-family: DOS-en, DOS, SimHei, Monaco, Menlo, Consolas, 'Courier New', monospace 
 }  
 
- .page .more {
-     text-pull: right 
-}  
+.page .more {
+    text-pull: right;
+    float: right;
+    color: #eea002;
+    margin: -1em 0em;
+    border: 1px solid #bbffff52;
+}
+
+.page .more:hover {
+    float: right;
+    color: #555;
+    background-color: #eea002;
+    margin: -1em 0em;
+}
 
  .post .date {
      margin-bottom: 20px;
@@ -59,7 +70,6 @@
 
  .mypage {
      padding-bottom: 30px;
-     border-bottom: 1px solid #fff 
 }  
 
  .navbar-brand {
@@ -147,10 +157,15 @@
     /* padding-bottom: 15px; */
     /* border-bottom: 1px solid #e0e0e0; */
     padding: 0px 0px 20px;
-    margin: 5px;
-    border-bottom: 1px solid #5200FFFF;
+    margin: 2em 1em;
+    border: 1px solid #5200FFFF;
+    border-top: 30px solid #5200FFFF;
+    border-radius: 2px;
 }
 
+.widget>h6{
+    margin-top: -25px; 
+}
 
  #local-search-input {
      background-color: #000;
@@ -321,7 +336,7 @@ blockquote {
      right: 50px;
      text-decoration: none;
      display: none;
-     background-color: #000 
+     background-color: #001020
 }  
 
  #gotop span {
@@ -368,13 +383,14 @@ blockquote {
 }  
 
 .page-header {
-    -webkit-background-clip: border-box;
-    -webkit-background-origin: padding-box;
-    -webkit-background-size: cover;
-    padding: 10px 20px 0 20px;
-    /* margin: -20px -20px 20px; */
+    background: url("../favicon.png") no-repeat center center;
+    background-size: 10em;
+    background-repeat: space;
+    border: 1px solid;
+    border-top: 30px solid;
+    border-radius: 2px;
+    padding: 10px 20px;
     color: #5200ff;
-    /* border-radius: 6px 6px 0 0; */
     font-size: 2em;
     text-align: center;
     -webkit-box-flex: initial;
@@ -383,14 +399,21 @@ blockquote {
     align-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    margin: 40px 0;
-    border: 0px
+    margin: 40px 14.4px;
 }
 
- .page .entry {
-     padding-top: 10px;
-     padding-bottom: 25px 
-}  
+.page-header>h1 {
+    text-shadow: 2px 4px #BFF;
+    padding: 2em;
+    font-style: italic;
+    margin: 0.5em;
+}
+
+.page .entry {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    margin-bottom: 1em;
+}
 
  .page .entry .row {
      padding-left: 20px;
@@ -430,7 +453,7 @@ blockquote {
 }  
 
  .page h3.title div.article-title {
-     width: 80% 
+    width: 100% 
 }  
 
  .page h3.title div.date {
@@ -539,15 +562,19 @@ hr {
      font-size: .8em 
 }  
 
- .logo {
-     background: url("../favicon.png") no-repeat left top;
-     background-size: 5em;
-}  
+.logo {
+    background: url("../favicon.png") no-repeat center center;
+    background-size: 30em;
+    border: 1px solid;
+    border-top: 30px solid;
+    border-radius: 2px;
+    margin: 14.4px 14.4px 14.4px 0px;
+    /* float: none; */
+}
 
  .logo>h1 {
-     padding-left: 2.4em;
      font-size: 1.5em;
-     line-height: 2.0em 
+     line-height: 2.0em
 }  
 
  .fa-heart:before {
