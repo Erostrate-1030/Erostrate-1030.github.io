@@ -373,7 +373,7 @@ blockquote {
      font-family: DOS-en, DOS, SimHei, Monaco, Menlo, Consolas, 'Courier New', monospace;
      color: #FFAA00EE;
     padding-left: 2px;
-    /*margin: 1em auto*/
+    margin: 0.5em auto 1em;
 }  
 
  h2 {
@@ -410,9 +410,10 @@ blockquote {
 }
 
 .page .entry {
-    padding-top: 10px;
-    padding-bottom: 25px;
+    padding: 0px 10px 5px;
+    /* padding-bottom: 25px; */
     margin-bottom: 1em;
+    /* max-height: 3em; */
 }
 
  .page .entry .row {
