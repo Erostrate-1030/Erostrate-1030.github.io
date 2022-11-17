@@ -1437,7 +1437,7 @@ hr {
  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
      font-family: inherit;
      font-weight: normal;
-     line-height: 20px;
+     line-height: normal;
      margin: 0 0 20px 0;
      color: inherit }
 
@@ -1449,8 +1449,7 @@ hr {
 
 
  h1, h2, h3 {
-     line-height: 20px;
-     margin-bottom: 1em; 
+     line-height: normal;
 }
 
 
@@ -1463,31 +1462,25 @@ hr {
 
 
  h1 {
-     font-size: 18px;
+     font-size: 30px;
      text-transform: uppercase }
 
 
  h2 {
-     font-size: 40px;
-     white-space: nowrap }
+    font-size: 30px;
+}
 
 
  h3 {
-     font-size: 20px }
+     font-size: 30px }
 
 
 h4 {
-    font-size: 18px;
-    margin-top: 0px;
+    font-size: 25px;
 }
-
-h4::before{
-    content: "# ";
-}
-
 
  h5 {
-     font-size: 18px }
+     font-size: 25px }
 
 
  h6 {
@@ -1519,7 +1512,7 @@ h6::after {
 
 
  p {
-     margin: 1em 1em 2em }
+     margin: 1.5em 1em }
 
 
  .lead {
