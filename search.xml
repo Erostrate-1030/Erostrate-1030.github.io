@@ -112,6 +112,23 @@
       </categories>
   </entry>
   <entry>
+    <title>月亮与三十元</title>
+    <url>/posts/fast_moon.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>月亮与三十元</p>
+<span id="more"></span>
+
+<p>深夜十点半的月亮<br>悬挂在食肆二楼招牌，<br>红与黄的霓虹光组成了她的皎洁。</p>
+<p>清洁剂与油炸食品<br>嗅觉寻迹而来，<br>沙拉与酸黄瓜<br>是神秘天体的人间风味。</p>
+<p>我如天狗一般<br>咽下一角月色——<br>面包屑、鱼肉、酱料、蔬菜，<br>一份明码标价的抚慰。</p>
+]]></content>
+      <categories>
+        <category>碎片</category>
+      </categories>
+      <tags>
+        <tag>诗</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>电子幽灵会给自己搭建超豪华金字塔吗？</title>
     <url>/posts/electronic_phantom_and_her_pyramid.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>答案在目前看来是肯定的。</p>
@@ -128,7 +145,6 @@
 <p>因此，某种意义上，金字塔既是电子幽灵的自恋之作，也是电子幽灵对世界的一些温柔。</p>
 ]]></content>
       <categories>
-        <category>博客</category>
         <category>碎片</category>
       </categories>
       <tags>
@@ -1067,13 +1083,13 @@
         <category>笔记</category>
       </categories>
       <tags>
-        <tag>造物</tag>
         <tag>Mastodon</tag>
         <tag>Bot</tag>
         <tag>腦洞</tag>
         <tag>唉酱</tag>
         <tag>heroku</tag>
         <tag>node.js</tag>
+        <tag>造物</tag>
       </tags>
   </entry>
   <entry>
@@ -1521,6 +1537,13 @@
 <p align="center"><del>（说完，自称维护者的云状生物便慢悠悠地飘回了她的窗口）</del></p>]]></content>
   </entry>
   <entry>
+    <title></title>
+    <url>/links/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr>
+<h1 id="layout-links"><a href="#layout-links" class="headerlink" title="layout: links"></a>layout: links</h1><hr>
+]]></content>
+  </entry>
+  <entry>
     <title>CATEGORIES</title>
     <url>/categories/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
@@ -1529,13 +1552,6 @@
     <title>ARCHIVE</title>
     <url>/archives/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/links/index.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr>
-<h1 id="layout-links"><a href="#layout-links" class="headerlink" title="layout: links"></a>layout: links</h1><hr>
-]]></content>
   </entry>
   <entry>
     <title>Resources</title>
