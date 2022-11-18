@@ -611,7 +611,8 @@ hr {
  .date {
      color: #555;
      line-height: 3em;
-     text-align: right 
+     margin: 1em auto;
+     text-align: right;
 }  
 
  pre, code {
