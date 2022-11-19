@@ -1588,13 +1588,13 @@
 <p align="center"><del>（说完，自称维护者的云状生物便慢悠悠地飘回了她的窗口）</del></p>]]></content>
   </entry>
   <entry>
-    <title>CATEGORIES</title>
-    <url>/categories/index.html</url>
+    <title>Resources</title>
+    <url>/resources/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
   <entry>
-    <title>ARCHIVE</title>
-    <url>/archives/index.html</url>
+    <title>CATEGORIES</title>
+    <url>/categories/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
   <entry>
@@ -1605,11 +1605,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Resources</title>
-    <url>/resources/index.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-  </entry>
-  <entry>
     <title>SEARCH</title>
     <url>/search/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
@@ -1617,6 +1612,11 @@
   <entry>
     <title>TAGS</title>
     <url>/tags/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
+  <entry>
+    <title>ARCHIVE</title>
+    <url>/archives/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
 </search>
